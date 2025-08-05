@@ -1,0 +1,12 @@
+@media screen and (max-width: 76.2344em) {
+  .md-nav--primary .md-nav__title {
+    display: flex;
+    align-items: center;
+    padding: .2rem .8rem;
+  }
+}
+
+.md-nav__title .md-nav__button {
+  display: block;
+}
+

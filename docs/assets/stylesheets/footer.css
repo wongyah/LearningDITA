@@ -1,0 +1,24 @@
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-footer-meta__inner.md-grid {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 1.3rem 0;
+}
+
+.md-copyright {
+  font-size: .6rem;
+  color: var(--md-footer-fg-color--light);
+}
+
+div.md-copyright__highlight {
+  display: inline;
+}
+
+@media screen and (min-width: 45em) {
+    .md-social {
+        padding: 0;
+    }
+}

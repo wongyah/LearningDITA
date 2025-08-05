@@ -1,0 +1,6 @@
+/* Markdown examples shown on the screen */
+.output {
+  padding: .7720588235em 1.1764705882em;
+  border: .05rem solid var(--md-default-fg-color--lightest);
+  border-top: none;
+}

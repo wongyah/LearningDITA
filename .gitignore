@@ -1,0 +1,28 @@
+# Python virtual environment (for mkdocs and plugins)
+/venv/
+/.venv/
+/env/
+
+# Python cache and packages
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+.vercel

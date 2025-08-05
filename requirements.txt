@@ -1,0 +1,4 @@
+mkdocs
+mkdocs-material==9.6.14
+pymdown-extensions
+markdown-include

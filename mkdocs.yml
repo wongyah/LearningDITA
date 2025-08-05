@@ -1,0 +1,83 @@
+site_name: 技术传播百态说
+theme:
+  name: material
+  language: zh
+  logo: assets/logo/logo_v3.svg
+  favicon: assets/logo/favicon.ico
+  palette:
+    # Light Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: custom
+      accent: custom
+    # Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: custom
+      accent: custom
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - navigation.path
+    - toc.follow
+  custom_dir: overrides
+
+extra_css:
+  - assets/stylesheets/palette.css
+  - assets/stylesheets/page.css
+  - assets/stylesheets/nav.css
+  - assets/stylesheets/header.css
+  - assets/stylesheets/footer.css
+
+extra:
+  homepage: https://www.tcblabber.cn/
+  doc_title: "Doc Name"
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wongyah/repo-name
+      name: "Repo Name"
+    - icon: simple/wechat
+      link: "https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487464&idx=1&sn=c57c1b993dcb2c166d88bc2c0d414a10&chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4&token=587590048&lang=zh_CN#rd"
+      name: "微信公众号@技术传播百态说"
+    - icon: simple/zhihu
+      link: "https://www.zhihu.com/column/c_1548252009672929280"
+      name: "知乎专栏@技术传播百态说"
+    - icon: material/email
+      link: "mailto:wongyah@126.com?subject=Markdown%20Syntax%20Hub"
+      name: "我的邮箱"
+
+copyright: "&copy; 2025 王烨."
+
+nav:
+  - 基本语法:
+    - section_1/index.md
+    - section_1/topic_a.md
+    - section_1/topic_b.md
+
+markdown_extensions:
+  - nl2br
+  - abbr
+  - footnotes
+  - def_list
+  - attr_list
+  - admonition
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      auto_title: true
+  - pymdownx.blocks.html
+  - pymdownx.blocks.caption
+  - pymdownx.snippets:
+      base_path: snippets
+
