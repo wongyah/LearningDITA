@@ -37,11 +37,11 @@ extra_css:
 
 extra:
   homepage: https://www.tcblabber.cn/
-  doc_title: "Doc Name"
+  doc_title: "学习DITA"
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/wongyah/repo-name
-      name: "Repo Name"
+      link: https://github.com/wongyah/LearningDITA
+      name: "学习DITA"
     - icon: simple/wechat
       link: "https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487464&idx=1&sn=c57c1b993dcb2c166d88bc2c0d414a10&chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4&token=587590048&lang=zh_CN#rd"
       name: "微信公众号@技术传播百态说"
@@ -55,10 +55,14 @@ extra:
 copyright: "&copy; 2025 王烨."
 
 nav:
-  - 基本语法:
-    - section_1/index.md
-    - section_1/topic_a.md
-    - section_1/topic_b.md
+  - DITA简介:
+    - 创建DITA内容:
+      - course01-intro/authoring/index.md
+      - course01-intro/authoring/lc_create_topic.md
+      - course01-intro/authoring/lc_create_topic_oxygen.md
+      - course01-intro/authoring/lc_notes.md
+      - course01-intro/authoring/lc_lists.md
+      - course01-intro/authoring/lc_inline.md
 
 markdown_extensions:
   - nl2br
