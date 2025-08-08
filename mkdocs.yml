@@ -55,8 +55,22 @@ extra:
 copyright: "&copy; 2025 王烨."
 
 nav:
-  - DITA简介:
-    - 创建DITA内容:
+  - DITA 概述:
+    - DITA 简介:
+      - course01-intro/dita_intro/index.md
+      - course01-intro/dita_intro/lc_dita.md
+      - course01-intro/dita_intro/lc_markup.md
+      - course01-intro/dita_intro/lc_structure.md
+      - course01-intro/dita_intro/lc_topic.md
+    - 主题类型:
+      - course01-intro/infotypes/index.md
+      - course01-intro/infotypes/lc_generic_topic.md
+      - course01-intro/infotypes/lc_concept.md
+      - course01-intro/infotypes/lc_task.md
+      - course01-intro/infotypes/lc_reference.md
+      - course01-intro/infotypes/lc_gloss.md
+      - course01-intro/infotypes/lc_specialization.md
+    - 创建 DITA 内容:
       - course01-intro/authoring/index.md
       - course01-intro/authoring/lc_create_topic.md
       - course01-intro/authoring/lc_create_topic_oxygen.md

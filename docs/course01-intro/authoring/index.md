@@ -8,7 +8,7 @@
 - 学会在主题中使用无序列表和有序列表。
 - 学会区分块元素和行内元素。
 
-## 相关阅读
+## 相关资料
 
 1. [W3schools：HTML 中的块元素和行内元素](https://www.w3schools.com/html/html_blocks.asp)
 2. [《DITA 写作指南》第三章：语法和标签](https://www.oxygenxml.com/dita/styleguide/c_Syntax_and_Markup.html)
