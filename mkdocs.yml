@@ -70,6 +70,10 @@ nav:
       - course01-intro/infotypes/lc_reference.md
       - course01-intro/infotypes/lc_gloss.md
       - course01-intro/infotypes/lc_specialization.md
+    - 元数据:
+      - course01-intro/metadata/index.md
+      - course01-intro/metadata/lc_md_definition.md
+      - course01-intro/metadata/lc_md_use.md
     - 创建 DITA 内容:
       - course01-intro/authoring/index.md
       - course01-intro/authoring/lc_create_topic.md
