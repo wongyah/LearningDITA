@@ -64,6 +64,7 @@ nav:
       - course01-intro/dita_intro/lc_topic.md
     - 主题类型:
       - course01-intro/infotypes/index.md
+      - course01-intro/infotypes/lc_topictypes.md
       - course01-intro/infotypes/lc_generic_topic.md
       - course01-intro/infotypes/lc_concept.md
       - course01-intro/infotypes/lc_task.md
@@ -81,6 +82,12 @@ nav:
       - course01-intro/authoring/lc_notes.md
       - course01-intro/authoring/lc_lists.md
       - course01-intro/authoring/lc_inline.md
+    - 表格:
+      - course01-intro/tables/index.md
+      - course01-intro/tables/lc_tables.md
+      - course01-intro/tables/lc_table_simple.md
+      - course01-intro/tables/lc_table_cals.md
+      - course01-intro/tables/lc_best_practices.md
 
 markdown_extensions:
   - nl2br
