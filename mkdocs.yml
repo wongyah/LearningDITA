@@ -88,6 +88,14 @@ nav:
       - course01-intro/tables/lc_table_simple.md
       - course01-intro/tables/lc_table_cals.md
       - course01-intro/tables/lc_best_practices.md
+    - 链接:
+      - course01-intro/links/index.md
+      - course01-intro/links/lc_links.md
+      - course01-intro/links/lc_maps.md
+      - course01-intro/links/lc_transforming.md
+      - course01-intro/links/lc_xrefs.md
+      - course01-intro/links/lc_related_links.md
+      - course01-intro/links/lc_relationships.md
 
 markdown_extensions:
   - nl2br
@@ -101,7 +109,11 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.tasklist
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       linenums: true
       auto_title: true
