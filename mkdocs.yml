@@ -1,4 +1,6 @@
-site_name: 技术传播百态说
+site_name: "LearningDITA 中文版"
+main_site_name: 技术传播百态说
+main_site_url: https://www.tcblabber.cn/
 theme:
   name: material
   language: zh
@@ -37,11 +39,10 @@ extra_css:
 
 extra:
   homepage: https://www.tcblabber.cn/
-  doc_title: "LearningDITA中文版"
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/wongyah/LearningDITA
-      name: "学习DITA"
+      name: "LearningDITA中文版的GitHub存储库"
     - icon: simple/wechat
       link: "https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487464&idx=1&sn=c57c1b993dcb2c166d88bc2c0d414a10&chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4&token=587590048&lang=zh_CN#rd"
       name: "微信公众号@技术传播百态说"
