@@ -25,7 +25,3 @@
   - `<stepresult>` - 执行操作后产生的结果
   - `<stepxmp>` - 演示如何进行操作的示例
 - `<example>` - 演示如何完成整个任务的示例
-
-## 相关资料
-
-视频：[任务型主题的源代码简介](https://youtu.be/PWSRhPnMDNs)

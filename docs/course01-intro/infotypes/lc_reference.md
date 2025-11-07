@@ -12,7 +12,3 @@
 - `<fig>` - 图片，可以包含一个图片标题
 - `<properties>` - 属性列表或参数列表
 - `<refsyn>` - 语法分析图
-
-## 相关资料：
-
-视频：[参考型主题的源代码简介](https://www.youtube.com/watch?v=l2y-MbYf2a4)

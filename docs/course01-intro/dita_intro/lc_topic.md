@@ -20,3 +20,7 @@
 ```
 
 不过，一个真正的主题中肯定还会有其他的内容。
+
+## 相关资料
+
+[我就想问：一个 DITA 主题，到底该写多长?](https://mp.weixin.qq.com/s/YNEAQlfAx9NjQ8xceQY15g)

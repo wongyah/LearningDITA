@@ -24,8 +24,8 @@ DITA 开放工具包 (DITA-OT) 是用扩展样式表语言 (XSL) 编写的样式
 
 ## 相关链接
 
-- [DITA-OT](https://www.dita-ot.org)
-- 网络研讨会：[DITA-OT 入门](https://www.youtube.com/watch?v=xFPRnJrRo8o)（视频，53分钟）
+- [DITA-OT官网](https://www.dita-ot.org)
+- [DITA-OT 4.0 发布：运行环境提升至 Java 17，新增 PDF 主题插件，优化项目文件……](https://mp.weixin.qq.com/s/a3Av34eX4J7EzpOw749K3w)
 
 <!-- abbr -->
 *[DITA-OT]: DITA Open Toolkit

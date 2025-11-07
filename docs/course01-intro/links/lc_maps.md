@@ -4,8 +4,6 @@
 
 一般情况下，一张导图中只添加当前文档需要的主题，而不是将所有主题都添加进来。还有，一个主题可以添加到多个导图中。在 DITA 中，这也是内容复用的一种方式。
 
-视频： [DITA导图示例](https://www.youtube.com/watch?v=I_yvE9_ECRw)
-
 导图中的常用元素有：
 
 - `<topicref>` 元素，可以用来创建指向特定主题的引用。
@@ -40,5 +38,3 @@
 <topicref href="shorebirds.dita">
 <mapref href="ducks.ditamap" format="ditamap"/>
 ```
-
-视频： [在导图中复用导图](https://www.youtube.com/watch?v=5gXZN505XFQ)

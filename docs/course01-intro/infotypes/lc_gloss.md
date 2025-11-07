@@ -7,7 +7,3 @@
 - `<glossentry>` - 术语主题的根元素
 - `<glossterm>` - 术语（词语或短语）
 - `<glossdef>` - 术语的定义
-
-## 相关资料
-
-视频：[术语主题的源代码简介](https://www.youtube.com/watch?v=a_Cr1lX3WAM)

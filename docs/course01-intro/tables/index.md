@@ -10,4 +10,3 @@
 ## 相关资料
 
 - [DITA 写作指南：表格](https://www.oxygenxml.com/dita/styleguide/Syntax_and_Markup/c_Tables.html)
-- [CALS 表格模型的相关背景](https://www.afei.org/about/history/Pages/CALS.aspx)

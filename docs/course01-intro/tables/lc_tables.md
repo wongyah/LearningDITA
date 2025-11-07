@@ -29,3 +29,7 @@ CALS 表格支持一些复杂的表格结构。在 CALS 表格中，你可以给
 
 !!! tip "小贴士"
     HTML 中的表格也使用了 CALS 模型。如果你熟悉 HTML 中的表格元素，学习 DITA 中的表格时肯定能发现很多相似之处。
+
+## 相关资料
+
+- [CALS 表格的历史](https://handwiki.org/wiki/CALS_Table_Model)

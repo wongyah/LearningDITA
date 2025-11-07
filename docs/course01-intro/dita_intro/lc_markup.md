@@ -34,4 +34,6 @@ DITA 和 HTML 之间还有一个不同点：HTML 文件的根元素（最外层�
 
 ## 相关资料
 
-视频：[HTML 标签和 DITA 标签的对比](https://youtu.be/1cYP5six9ww)
+- [HTML 元素简介](https://www.w3school.com.cn/html/html_elements.asp)
+- [XML 语法规则](https://www.w3school.com.cn/xml/xml_syntax.asp)
+- [XHTML 简介](https://www.w3school.com.cn/html/html_xhtml.asp)

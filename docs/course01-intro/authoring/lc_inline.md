@@ -42,3 +42,7 @@ XML 本身并不区分块元素和行内元素，它们的标签格式都是相�
 ```xml
 <p>行内元素<indexterm>行内元素</indexterm><i>不会</i>引起换行。</p>
 ```
+
+## 相关资料
+
+[W3schools：HTML 中的块元素和行内元素](https://w3schools.org.cn/html/html_blocks.asp)

@@ -10,7 +10,7 @@
 
 ## 相关资料
 
-1. [W3schools：HTML 中的块元素和行内元素](https://www.w3schools.com/html/html_blocks.asp)
+
 2. [《DITA 写作指南》第三章：语法和标签](https://www.oxygenxml.com/dita/styleguide/c_Syntax_and_Markup.html)
 3. [DITA 1.3（OASIS 标准）](https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/dita-v1.3-errata01-os-part3-all-inclusive-complete.html)
 
