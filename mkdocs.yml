@@ -97,6 +97,30 @@ nav:
       - course01-intro/links/lc_xrefs.md
       - course01-intro/links/lc_related_links.md
       - course01-intro/links/lc_relationships.md
+  - 创建概念型主题:
+    - 概念型主题简介:
+      - course02-authoring_concepts/concept_intro/index.md
+      - course02-authoring_concepts/concept_intro/lc_example_files.md
+      - course02-authoring_concepts/concept_intro/lc_creating_new.md
+      - course02-authoring_concepts/concept_intro/lc_basic_elements.md
+    - 图片和表格:
+      - course02-authoring_concepts/images_and_tables/index.md
+      - course02-authoring_concepts/images_and_tables/lc_images.md
+      - course02-authoring_concepts/images_and_tables/lc_simpletables.md
+      - course02-authoring_concepts/images_and_tables/lc_tables.md
+    - 更多元素:
+      - course02-authoring_concepts/more_elements/index.md
+      - course02-authoring_concepts/more_elements/lc_inline.md
+      - course02-authoring_concepts/more_elements/lc_elements.md
+    - 高级元素:
+      - course02-authoring_concepts/advanced/index.md
+      - course02-authoring_concepts/advanced/lc_advanced.md
+      - course02-authoring_concepts/advanced/lc_more_advanced.md
+    - 最佳实践:
+      - course02-authoring_concepts/best_practices/index.md
+      - course02-authoring_concepts/best_practices/lc_formatting.md
+      - course02-authoring_concepts/best_practices/lc_consistency.md
+      - course02-authoring_concepts/best_practices/lc_semantic.md
 
 markdown_extensions:
   - nl2br
