@@ -78,7 +78,7 @@ DITA使用行内元素为段落中的文本片段添加行内样式：
     <concept id="concept_elements">
      <title>给小鸭子喂食</title>
      <conbody>
-      <p>由于鸭子饲料又干又硬，小鸭子需要充足的水（H<sub>2</sub>O）来保持喙部清洁。</p>
+      <p>由于鸭饲料又干又硬，小鸭子需要充足的水（H<sub>2</sub>O）来保持喙部清洁。</p>
      </conbody>
     </concept>
     ```

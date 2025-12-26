@@ -255,7 +255,7 @@
     技术文档和宣传资料的刻板印象
     ///
      
-     为用户提供一个友好的界面，可以让他们快速缩小选择范围，找到自己想要的东西。你不需要显示数据库里的所有字段——只显示那些能帮助用户缩小选择范围的字段就行。
+     为用户提供一个友好的界面，可以让他们快速缩小选择范围，找到自己想要的东西。你不需要显示数据库里的所有字段，只显示那些能帮助用户缩小选择范围的字段就行。
 
     ![当你在左侧进行选择时，右侧的产品列表会实时更新](https://learningdita.com/hosted_images/configurebetter1.png)
 
@@ -266,42 +266,4 @@
     --8<-- "sample_content.md:end"
 
 2. 对照课后练习的参考答案`lesson2/l_concept_images_tables_exercise.dita`，自行批改一下你刚刚完成的练习作业`lesson2/l_concept_images_tables_start.dita`。
-
-
-
-     <!-- <h3>使用技术内容支持市场营销</h3>
-     长久以来，技术传播与市场营销一直处在内容光谱的两端。人们总是认为，技术文档排版粗糙、晦涩难懂，里面挤满了密密麻麻的文字；而宣传资料设计精美、赏心悦目，但却言之无物。关于这一点，争议愈演愈烈:
-     <em>市场营销和技术传播的刻板印象</em>
-     <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
-     <tbody>
-     <tr class="strow">
-     <td class="stentry" valign="top" width="33%"></td>
-     <td class="stentry" valign="top" width="33%"><strong>市场营销</strong></td>
-     <td class="stentry" valign="top" width="33%"><strong>技术传播</strong></td>
-     </tr>
-     <tr class="strow">
-     <td class="stentry" valign="top">重视设计还是自动化?</td>
-     <td class="stentry" valign="top">设计</td>
-     <td class="stentry" valign="top">自动化</td>
-     </tr>
-     <tr class="strow">
-     <td class="stentry" valign="top">内容的详细程度</td>
-     <td class="stentry" valign="top">越简略越好</td>
-     <td class="stentry" valign="top">越详细越好</td>
-     </tr>
-     <tr class="strow">
-     <td class="stentry" valign="top">对营收的预期影响</td>
-     <td class="stentry" valign="top">很大</td>
-     <td class="stentry">无</td>
-     </tr>
-     <tr class="strow">
-     <td class="stentry" valign="top">核心目的</td>
-     <td class="stentry" valign="top">说服人们购买</td>
-     <td class="stentry" valign="top">告诉人们信息</td>
-     </tr>
-     </tbody>
-     </table>
-     <p>为用户提供一个友好的界面，可以让他们快速缩小选择范围，找到自己想要的东西。你不需要显示数据库里的所有字段——只显示那些能帮助用户缩小选择范围的字段就行。</p>
-     <p><em>当你在左侧进行选择时，右侧的产品列表会实时更新</em></p>
-     <img src="https://learningdita.com/hosted_images/configurebetter1.png"/> -->
 
