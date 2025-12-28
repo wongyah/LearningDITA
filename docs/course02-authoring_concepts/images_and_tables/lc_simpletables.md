@@ -14,7 +14,11 @@
 
 本讲的主要内容是`<simpletable>`元素的基本用法。
 
-![示例：简单表格的可视格式](../media/images_and_tables/simpletable.png)
+![示例：在可视模式下编辑简单表格](../../assets/media/images/course02/images_and_tables/simpletable.png)
+
+/// caption
+示例：在可视模式下编辑简单表格
+///
 
 ## 随堂练习
 

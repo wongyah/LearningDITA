@@ -21,7 +21,11 @@
 
 本讲的主要内容是`<table>`元素的基本用法。为了让`<table>`和`<simpletable>`元素之间的区别更显而易见，`<table>`元素的练习文件与`<simpletable>`一模一样。
 
-![示例：表格的可视格式](../media/images_and_tables/table.png)
+![示例：在可视模式下编辑表格](../../assets/media/images/course02/images_and_tables/table.png)
+
+/// caption
+示例：在可视模式下编辑表格
+///
 
 ## 随堂练习
 
