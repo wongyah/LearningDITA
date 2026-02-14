@@ -103,19 +103,23 @@ nav:
       - course02-authoring_concepts/concept_intro/lc_example_files.md
       - course02-authoring_concepts/concept_intro/lc_creating_new.md
       - course02-authoring_concepts/concept_intro/lc_basic_elements.md
+      - course02-authoring_concepts/concept_intro/l_new_concept.md
     - 图片和表格:
       - course02-authoring_concepts/images_and_tables/index.md
       - course02-authoring_concepts/images_and_tables/lc_images.md
       - course02-authoring_concepts/images_and_tables/lc_simpletables.md
       - course02-authoring_concepts/images_and_tables/lc_tables.md
+      - course02-authoring_concepts/images_and_tables/l_concept_images_tables_exercise.md
     - 更多元素:
       - course02-authoring_concepts/more_elements/index.md
       - course02-authoring_concepts/more_elements/lc_inline.md
       - course02-authoring_concepts/more_elements/lc_elements.md
+      - course02-authoring_concepts/more_elements/l_concept_elements.md
     - 高级元素:
       - course02-authoring_concepts/advanced/index.md
       - course02-authoring_concepts/advanced/lc_advanced.md
       - course02-authoring_concepts/advanced/lc_more_advanced.md
+      - course02-authoring_concepts/advanced/l_concept_advanced.md
     - 最佳实践:
       - course02-authoring_concepts/best_practices/index.md
       - course02-authoring_concepts/best_practices/lc_formatting.md

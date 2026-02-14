@@ -10,13 +10,13 @@
 
 ## 随堂练习
 
-1. 请继续使用文件 `lesson4/l_concept_advanced_start.dita` 进行练习，在里面插入上面提到的元素。
+请继续使用文件 `lesson4/l_concept_advanced_start.dita` 进行练习，在里面插入上面提到的元素。
 
-2. 在 `<lq>` 元素的后面，插入一个 `<section>` 元素如下：
+1. 在 `<lq>` 元素的后面，插入一个 `<section>` 元素如下：
 
     在本例中，你在“描写鸭子”的主题中新增了一个小节。
 
-3. 在 `<section>` 元素中，插入一个 `<title>` 元素和一个 `<p>` 元素，并添加内容如下：
+2. 在 `<section>` 元素中，插入一个 `<title>` 元素和一个 `<p>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@
 
     `<section>` 元素中允许插入的元素和 `<conbody>` 一模一样，只有一个元素例外：`<section>`。`<section>` 不允许自嵌套，也就是说，你不能在一个 `<section>` 元素中插入另一个 `<section>` 元素。
 
-4. 在新小节中的 `<p>` 元素后面，插入一个 `<draft-comment>` 元素，并添加内容如下：
+3. 在新小节中的 `<p>` 元素后面，插入一个 `<draft-comment>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -55,7 +55,7 @@
 
     在本例中，你通过批注与参与编辑这个主题的其他写作人员沟通，希望他们重新考虑一下是否真要提供下载渠道。
 
-5. 在新小节的末尾（`<section>` 元素的结束标签之前），插入一个 `<required-cleanup>` 元素，并添加内容如下：
+4. 在新小节的末尾（`<section>` 元素的结束标签之前），插入一个 `<required-cleanup>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -74,7 +74,7 @@
 
     在本例中，你通过 `<required-cleanup>` 元素进行沟通，提醒写作人员必须将元素中的内容移动到一个合法的位置（比如 `<section>` 元素中）或者更换成一个合法的元素（比如 `<example>` 元素）。否则，由于存在非法元素，该主题就无法发布成文档。
 
-6. 对照随堂练习的参考答案 `l_concept_advanced.dita`，自行批改一下你刚刚完成的练习作业 `lesson4/l_concept_advanced_start.dita`。
+5. 对照[随堂练习的参考答案] (`l_concept_advanced.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson4/l_concept_advanced_start.dita`)。
 
 ## 课后练习
 
@@ -116,4 +116,8 @@
 
     --8<-- "sample_content.md:end"
 
-2. 对照课后练习的参考答案 `lesson4/l_concept_advanced_exercise.dita`，自行批改一下你刚刚完成的练习作业 `lesson4/l_concept_advanced_exercise_start.dita`。
+2. 对照[课后练习的参考答案] (`lesson4/l_concept_advanced_exercise.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson4/l_concept_advanced_exercise_start.dita`)。
+
+
+[随堂练习的参考答案]: l_concept_advanced.md#_2
+[课后练习的参考答案]: l_concept_advanced.md#_3

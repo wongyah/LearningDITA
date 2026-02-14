@@ -10,9 +10,9 @@
 
 ## 随堂练习
 
-1. 请继续使用文件 `lesson3/l_concept_elements_start.dita` 练习，将上面提到的元素插入到文件中。
+请继续使用文件 `lesson3/l_concept_elements_start.dita` 练习，将上面提到的元素插入到文件中。
 
-2. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<fn>` 元素，如下：
+1. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<fn>` 元素，如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -27,7 +27,7 @@
 
     `<fn>` 元素标明了脚注编号在正文中的位置。默认情况下，当你将DITA文件发布为可视格式时，`<fn>` 元素中的文本显示在页面底部（PDF文件）或者主题的末尾（HTML页面）。
 
-3. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<menucascade>` 元素，如下：
+2. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<menucascade>` 元素，如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -42,7 +42,7 @@
 
     在本例中，`<menucascade>` 元素用来说明新建电子表格需要使用的菜单项。
 
-4. 在 `<menucascade>` 元素中，插入一个 `<uicontrol>` 元素，并添加内容如下：
+3. 在 `<menucascade>` 元素中，插入一个 `<uicontrol>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -61,7 +61,7 @@
 
     在本例中，`<uicontrol>` 元素中的内容是新建电子表格时需要使用的第一个菜单项的名称："文件"。
 
-5. 在 `<uicontrol>` 元素的后面，再插入两个 `<uicontrol>` 元素，并添加内容如下：
+4. 在 `<uicontrol>` 元素的后面，再插入两个 `<uicontrol>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -86,7 +86,7 @@
 
     `<uicontrol>` 也可以单独使用，不是非和要 `<menucascade>` 一起用。例如，你可以使用 `<uicontrol>` 元素标记一个词汇，以表示这个词汇是用户应该点击的按钮名称。由于 `<uicontrol>` 元素中的内容会以特殊格式显示，所以没必要在 `<uicontrol>` 元素中再使用 `<b>` 元素或者其他行内元素。
 
-6. 在 `<menucascade>` 元素的后面，依次插入一个 `<p>` 元素和一个 `<dl>` 元素如下：
+5. 在 `<menucascade>` 元素的后面，依次插入一个 `<p>` 元素和一个 `<dl>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -105,7 +105,7 @@
 
     `<dl>` 元素可以为定义列表建立内容框架。
 
-7. 在 `<dl>` 元素中，插入一个 `<dlentry>` 元素如下：
+6. 在 `<dl>` 元素中，插入一个 `<dlentry>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -124,7 +124,7 @@
 
     每个 `<dlentry>` 元素中都有一个术语和它的定义。一个 `<dlentry>` 元素中可以有一个或多个 `<dd>` 元素。
 
-8. 在 `<dl>` 元素中，插入一个 `<dt>` 元素和一个 `<dd>` 元素，并添加内容如下：
+7. 在 `<dl>` 元素中，插入一个 `<dt>` 元素和一个 `<dd>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -143,7 +143,7 @@
 
     `<dt>` 元素中的内容是术语，`<dd>` 元素中的内容是术语的定义。
 
-9. 在 `<dlentry>` 元素的后面，再插入三个 `<dlentry>` 元素，并添加内容如下：
+8. 在 `<dlentry>` 元素的后面，再插入三个 `<dlentry>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -170,7 +170,7 @@
     </concept>
     ```
 
-10. 对照随堂练习的参考答案 `lesson3/l_concept_elements.dita`，自行批改一下你刚刚完成的练习作业 `lesson3/l_concept_elements_start.dita`。
+9. 对照[随堂练习的参考答案] (`lesson3/l_concept_elements.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson3/l_concept_elements_start.dita`)。
 
 ## 课后练习
 
@@ -203,4 +203,8 @@
 
     --8<-- "sample_content.md:end"
 
-2. 对照课后练习的参考答案 `lesson3/l_concept_elements_exercise.dita`，自行批改一下你刚刚完成的练习作业 `lesson3/l_concept_elements_exercise_start.dita`。
+2. 对照[课后练习的参考答案] (`lesson3/l_concept_elements_exercise.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson3/l_concept_elements_exercise_start.dita`)。
+
+
+[随堂练习的参考答案]: l_concept_elements.md#_2
+[课后练习的参考答案]: l_concept_elements.md#_3

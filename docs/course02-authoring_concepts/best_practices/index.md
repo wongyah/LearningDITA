@@ -19,5 +19,5 @@
 - [《DITA写作指南》：内容复用](https://www.oxygenxml.com/dita/styleguide/c_Content_Re-use.html)
 - [《DITA写作指南》：语言和标点符号](https://www.oxygenxml.com/dita/styleguide/c_Language_and_Punctuation.html)
 - [系列文章：DITA发布中的风险](https://www.scriptorium.com/?s=perils+of+dita)
-- [W3C Schools：XML简介](https://www.w3schools.com/xml/xml_whatis.asp)
+- [W3school：XML简介](https://www.w3school.com.cn/xml/xml_intro.asp)
 - [结构化写作和XML（Sarah O’Keefe）](https://www.scriptorium.com/2017/04/structured-authoring-and-xml/)

@@ -1,0 +1,185 @@
+# 参考答案
+
+## 随堂练习的参考答案
+
+本讲中[随堂练习]的参考答案如下：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_images_tables">
+  <title>小鸭子的生长发育</title>
+  <conbody>
+    <image id="image_gky_rnk_bt" href="images/ducklings_swimming.jpg"/>
+    <fig>
+      <title>奔跑的小鸭子</title>
+      <image id="image_lqr_rnk_bt" href="images/ducklings_running.jpg"/>
+    </fig>
+    <simpletable>
+      <sthead>
+        <stentry>
+          <p>鸭龄</p>
+        </stentry>
+        <stentry>
+          <p>重要时刻</p>
+        </stentry>
+      </sthead>
+      <strow>
+        <stentry>
+          <p>7 周</p>
+        </stentry>
+        <stentry>
+          <p>第一次尝试飞起来</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p>12-14 周</p>
+        </stentry>
+        <stentry>
+          <p>体重达到成年鸭子的水平</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p>1 年</p>
+        </stentry>
+        <stentry>
+          <p>具有繁殖能力</p>
+        </stentry>
+      </strow>
+    </simpletable>
+    <table frame="all" rowsep="1" colsep="1" id="table_tkb_tnk_bt">
+      <title>绿头鸭的正常发育过程</title>
+      <tgroup cols="2">
+        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+        <thead>
+          <row>
+            <entry>
+              <p>鸭龄</p>
+            </entry>
+            <entry>
+              <p>重要时刻</p>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <p>7 周</p>
+            </entry>
+            <entry>
+              <p>第一次尝试飞起来</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>12-14 周</p>
+            </entry>
+            <entry>
+              <p>体重达到成年鸭子的水平</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1 年</p>
+            </entry>
+            <entry>
+              <p>具有繁殖能力</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>
+```
+
+## 课后练习的参考答案
+
+本讲中[课后练习]的参考答案如下：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_images_tables_exercise">
+  <title>让技术内容服务于市场营销</title>
+  <conbody>
+    <p>长久以来，技术传播与市场营销一直处在内容光谱的两端。人们总是认为，技术文档排版粗糙、晦涩难懂，里面挤满了密密麻麻的文字；而宣传资料设计精美、  赏心悦目，却言之无物。关于这一点，争议愈演愈烈:</p>
+    <table frame="all" rowsep="1" colsep="1" id="table_ech_1ww_dt">
+      <title>技术文档和宣传资料的刻板印象</title>
+      <tgroup cols="3">
+        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+        <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+        <thead>
+          <row>
+            <entry><p>对比项</p></entry>
+            <entry>
+              <p>技术文档</p>
+            </entry>
+            <entry>
+              <p>宣传资料</p>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <p>关注点</p>
+            </entry>
+            <entry>
+              <p>自动化</p>
+            </entry>
+            <entry>
+              <p>设计</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>内容的详细程度</p>
+            </entry>
+            <entry>
+              <p>越详细越好</p>
+            </entry>
+            <entry>
+              <p>越简略越好</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>对营收的预期影响</p>
+            </entry>
+            <entry>
+              <p>无</p>
+            </entry>
+            <entry>
+              <p>很大</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>核心目的</p>
+            </entry>
+            <entry>
+              <p>传达信息</p>
+            </entry>
+            <entry>
+              <p>说服人们购买</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>为用户提供一个友好的界面，可以让他们快速缩小选择范围，找到自己想要的东西。你不需要显示数据库里的所有字段，只显示那些能帮助用户缩小选择范围的字段就行。</p>
+    <fig>
+      <title>当你在左侧进行选择时，右侧的产品列表会实时更新</title>
+      <image href="images/configurebetter1.png" id="image_pqx_pww_dt"/>
+    </fig>
+  </conbody>
+</concept>
+```
+
+[随堂练习]: lc_images.md#_2
+[课后练习]: lc_tables.md#_3

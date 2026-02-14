@@ -234,7 +234,7 @@
 
     一个`<tbody>` 元素中可以有一个或多个`<row>`元素。
 
-11. 对照随堂练习的参考答案`lesson2/l_concept_images_tables.dita`，自行批改一下你刚刚完成的练习作业`lesson2/l_concept_images_tables_start.dita`。
+11. 对照[随堂练习的参考答案] (`lesson2/l_concept_images_tables.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson2/l_concept_images_tables_start.dita`)。
 
 ## 课后练习
 
@@ -269,5 +269,7 @@
 
     --8<-- "sample_content.md:end"
 
-2. 对照课后练习的参考答案`lesson2/l_concept_images_tables_exercise.dita`，自行批改一下你刚刚完成的练习作业`lesson2/l_concept_images_tables_start.dita`。
+2. 对照[课后练习的参考答案] (`lesson2/l_concept_images_tables_exercise.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson2/l_concept_images_tables_start.dita`)。
 
+[随堂练习的参考答案]: l_concept_images_tables_exercise.md#_2
+[课后练习的参考答案]: l_concept_images_tables_exercise.md#_3

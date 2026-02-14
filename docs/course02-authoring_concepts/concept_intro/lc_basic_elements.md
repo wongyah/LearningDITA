@@ -112,7 +112,7 @@
 
     `<note>` 元素主要用来编写安全信息，比如在概念性主题中添加注释、警告、小心。刚刚插入的 `<note>` 元素，按照最佳实  践，里面的文本都放在了 `<p>` 元素里。
 
-6. 对照随堂练习的参考答案 `lesson1/l_new_concept.dita`，自行批改一下你刚刚完成的练习作业 `lesson1/l_new_concept_start.dita`。
+6. 对照[随堂练习的参考答案] (`lesson1/l_new_concept.dita`)，自行批改一下你刚刚完成的练习作业 `lesson1/l_new_concept_start.dita`。
 
 ## 课后练习
 
@@ -146,5 +146,7 @@
 
     --8<-- "sample_content.md:end"
 
-2. 对照课后练习的参考答案 `lesson1/l_new_concept_exercise.dita`，自行批改一下你刚刚完成的练习作业 `lesson1/l_new_concept_exercise_start.dita`。
+2. 对照[课后练习的参考答案] (`lesson1/l_new_concept_exercise.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson1/l_new_concept_exercise_start.dita`)。
 
+[随堂练习的参考答案]: l_new_concept.md#_2
+[课后练习的参考答案]: l_new_concept.md#_3
