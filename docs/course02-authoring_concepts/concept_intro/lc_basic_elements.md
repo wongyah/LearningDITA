@@ -13,7 +13,7 @@
 
 ## 随堂练习
 
-1. 打开上一讲使用的练习文件 `lesson1/l_new_concept_start.dita`。
+1. 打开上一节使用的练习文件 `lesson1/l_new_concept_start.dita`。
 
 2. 在 `<conbody>` 元素中，插入一个 `<p>` 元素，并添加内容如下：
 
@@ -21,9 +21,9 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野生鸭子的种类</title>
+     <title>野鸭的种类</title>
      <conbody>
-      <p>北美的野生鸭子属于下列种类之一：</p>
+      <p>北美的野鸭属于下列种类之一：</p>
      </conbody>
     </concept>
     ```
@@ -41,7 +41,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野生鸭子的种类</title>
+     <title>野鸭的种类</title>
      <conbody>
       ... 
       <ul>
@@ -71,7 +71,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野生鸭子的种类</title>
+     <title>野鸭的种类</title>
      <conbody>
       ... 
       <p>在北美，体型最长的钻水鸭是：</p>
@@ -102,7 +102,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野生鸭子的种类</title>
+     <title>野鸭的种类</title>
      <conbody>
       ... 
       <note><p>虽然针尾鸭是体型最长的钻水鸭，但野鸭通常被认为是最大的钻水鸭，因为它更重。</p></note>

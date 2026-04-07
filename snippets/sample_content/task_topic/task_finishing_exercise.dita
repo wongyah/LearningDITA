@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_tlf_3h2_jt">
+    <title>管理变革</title>
+    <taskbody>
+        <steps id="steps_dwr_jyf_jt">
+            <step>
+                <cmd>向高层管理人员和一线员工展示变革的价值。</cmd>
+            </step>
+            <step>
+                <cmd>提供培训和知识转移。</cmd>
+                <stepxmp>
+                    <lines>☐ 线下培训 ☐ 在线培训 ☐ 面向培训人员的培训</lines>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>发现新工作流程中的问题，并识别哪些问题的合理的、哪些问题是由于抵触情绪和本能而提出的。</cmd>
+            </step>
+            <step>
+                <cmd>通过试点项目向参与者说明工作流程中的变化。</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>当公司的工作流程发生变化时，良好的管理至关重要。如果管理不善，新流程很可能会实施失败。糟糕的管理会不仅会扼杀新流程的实施，还会让所有相关人员陷入困境。</p>
+        </result>
+        <example>如果没有良好的变革管理，那些习惯性坚决反对变革的员工可能会获得其他团队成员的支持，最终导致几乎所有人都拒绝使用新系统。</example>
+        <postreq>成功管理了变革之后，你就可以在新系统中创建有用的内容了。</postreq>
+    </taskbody>
+</task>

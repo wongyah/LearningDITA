@@ -8,9 +8,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="my_first_concept">
-  <title>野生鸭子的种类</title>
+  <title>野鸭的种类</title>
   <conbody>
-    <p>北美的野生鸭子属于下列种类之一：</p>
+    <p>北美的野鸭属于下列种类之一：</p>
     <ul id="ul_d2l_flk_bt">
       <li>
         <p>钻水鸭</p>

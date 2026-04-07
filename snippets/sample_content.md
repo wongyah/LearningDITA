@@ -3,7 +3,8 @@
 /// html | span.filename
 练习内容
 ///
-/// html | div.output[style="color: #0000008a;"]
+<!-- /// html | div.output[style="color: #0000008a;"] -->
+/// html | div.output
 # --8<-- [end:start]
 
 # --8<-- [start:end]

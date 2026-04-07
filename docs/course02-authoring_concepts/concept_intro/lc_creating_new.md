@@ -40,7 +40,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-      <title>野生鸭子的种类</title>
+      <title>野鸭的种类</title>
     </concept>
     ```
 
@@ -53,7 +53,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野生鸭子的种类</title>
+     <title>野鸭的种类</title>
      <conbody>
      </conbody>
     </concept>
