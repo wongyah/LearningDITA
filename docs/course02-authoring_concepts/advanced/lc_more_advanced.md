@@ -80,7 +80,7 @@
 
 1. 打开文件 `lesson4/l_concept_advanced_exercise_start.dita`，使用该文件将以下内容转换成DITA：
 
-    --8<-- "sample_content.md:start"
+    --8<-- "div_exercise_content.md:start"
 
     <h2 style="margin: .64em 0 .64em;">制定技术内容策略</h2>
 
@@ -114,10 +114,10 @@
     
     *内容针对的是错误的受众。例如，医院写给患者的一份文档，使用的全是只有医学界的专业人士才能看懂的复杂的医学术语。*
 
-    --8<-- "sample_content.md:end"
+    --8<-- "div_exercise_content.md:end"
 
 2. 对照[课后练习的参考答案] (`lesson4/l_concept_advanced_exercise.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson4/l_concept_advanced_exercise_start.dita`)。
 
 
-[随堂练习的参考答案]: l_concept_advanced.md#_2
-[课后练习的参考答案]: l_concept_advanced.md#_3
+[随堂练习的参考答案]: sa_concept_advanced.md#_2
+[课后练习的参考答案]: sa_concept_advanced.md#_3

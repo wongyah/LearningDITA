@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="my_first_concept">
+ <title>野鸭的种类</title>
+ <conbody>
+
+  <p>北美有以下几种野鸭：</p>
+  <ul id="ul_d2l_flk_bt">
+   <li>
+    <p>钻水鸭</p>
+   </li>
+   <li>
+    <p>潜水鸭</p>
+   </li>
+   <li>
+    <p>海鸭</p>
+   </li>
+   <li>
+    <p>树鸭</p>
+   </li>
+   <li>
+    <p>天鹅</p>
+   </li>
+   <li>
+    <p>鹅</p>
+   </li>
+  </ul>
+  <p>在北美，体型最长的钻水鸭是：</p>
+  <ol id="ol_x5z_flk_bt">
+   <li>
+    <p>针尾鸭</p>
+   </li>
+   <li>
+    <p>野鸭</p>
+   </li>
+   <li>
+    <p>美洲黑鸭</p>
+   </li>
+  </ol>
+  <note><p>虽然针尾鸭是体型最长的钻水鸭，但野鸭通常被认为是最大的钻水鸭，因为它更重。</p></note>
+ </conbody>
+</concept>

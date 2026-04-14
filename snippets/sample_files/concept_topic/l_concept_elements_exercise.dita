@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_elements_exercise">
+ <title>提升产品的关注度</title>
+ <conbody>
+  <p>技术内容能够帮助组织提升其产品在市场中的关注度。 理论上说，技术内容的目标受众是**产品的客户**，即那些购买产品后查阅产品文档的人。</p>
+  <p>然而一项民意调查显示，大约有三分之一的客户<fn>《客户对产品文档的看法》，由莎伦·伯顿开展的一项在线民意调查。</fn> 会在购买产品前先看文档，而文档的质量会影响他们的购买决策。</p>
+  <p>要吸引潜在客户，技术内容必须做到以下三点： 可搜索、易查找、易发现。</p>
+  <dl>
+   <dlentry>
+    <dt>可搜索</dt>
+    <dd>客户可以通过网络搜索找到您的内容。</dd>
+   </dlentry>
+   <dlentry>
+    <dt>易查找</dt>
+    <dd>客户可以通过相关关键词快速检索到您的内容。</dd>
+   </dlentry>
+   <dlentry>
+    <dt>易发现</dt>
+    <dd>您的内容能让人们主动链接或引用。</dd>
+   </dlentry>
+  </dl>
+  <p>想要阅读更多内容，请前往<menucascade><uicontrol>目录</uicontrol><uicontrol>商业目标</uicontrol><uicontrol>营销与产品关注度</uicontrol><uicontrol>提升产品的关注度</uicontrol></menucascade>.</p>
+ </conbody>
+</concept>

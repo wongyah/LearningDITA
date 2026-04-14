@@ -48,7 +48,7 @@
 
 1. 打开文件 `lesson1/l_new_task_exercise_start.dita`，使用该文件将以下内容转换成 DITA：
 
-    --8<-- "sample_content.md:start"
+    --8<-- "div_exercise_content.md:start"
     <h2 style="margin: .64em 0 .64em;">为你的内容策略编写商业案例</h2>
 
     **开始之前**
@@ -65,10 +65,10 @@
     - 内容复用
     - 内容本地化
     
-    --8<-- "sample_content.md:end"
+    --8<-- "div_exercise_content.md:end"
 
 2. 对照[课后练习的参考答案] (`lesson1/l_new_task_exercise.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson1/l_new_task_exercise_start.dita`)。
 
 <!-- links -->
-[随堂练习的参考答案]: l_new_task.md#_2
-[课后练习的参考答案]: l_new_task.md#_3
+[随堂练习的参考答案]: sa_new_task.md#_2
+[课后练习的参考答案]: sa_new_task.md#_3

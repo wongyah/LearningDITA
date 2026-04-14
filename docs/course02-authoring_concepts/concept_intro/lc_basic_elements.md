@@ -118,7 +118,7 @@
 
 1. 打开文件 `lesson1/l_new_concept_exercise_start.dita`，使用该文件将以下内容转换成DITA：
 
-    --8<-- "sample_content.md:start"
+    --8<-- "div_exercise_content.md:start"
 
     <h2 style="margin: .64em 0 .64em;">内容策略和商业目标</h2>
 
@@ -144,9 +144,9 @@
     8. 沉淀项目知识。
     9. 确保长期成功。
 
-    --8<-- "sample_content.md:end"
+    --8<-- "div_exercise_content.md:end"
 
 2. 对照[课后练习的参考答案] (`lesson1/l_new_concept_exercise.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson1/l_new_concept_exercise_start.dita`)。
 
-[随堂练习的参考答案]: l_new_concept.md#_2
-[课后练习的参考答案]: l_new_concept.md#_3
+[随堂练习的参考答案]: sa_new_concept.md#_2
+[课后练习的参考答案]: sa_new_concept.md#_3

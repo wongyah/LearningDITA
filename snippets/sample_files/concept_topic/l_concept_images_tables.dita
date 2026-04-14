@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_images_tables">
+ <title>小鸭子的生长发育</title>
+ <conbody>
+  <image id="image_gky_rnk_bt" href="images/ducklings_swimming.jpg"/>
+  <fig>
+   <title>奔跑的小鸭子</title>
+   <image id="image_lqr_rnk_bt" href="images/ducklings_running.jpg"/>
+  </fig>
+  <simpletable>
+   <sthead>
+    <stentry>
+     <p>鸭龄</p>
+    </stentry>
+    <stentry>
+     <p>重要时刻</p>
+    </stentry>
+   </sthead>
+   <strow>
+    <stentry>
+     <p>7 周</p>
+    </stentry>
+    <stentry>
+     <p>第一次尝试飞起来</p>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>
+     <p>12-14 周</p>
+    </stentry>
+    <stentry>
+     <p>体重达到成年鸭子的水平</p>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>
+     <p>1 年</p>
+    </stentry>
+    <stentry>
+     <p>具有繁殖能力</p>
+    </stentry>
+   </strow>
+  </simpletable>
+  <table frame="all" rowsep="1" colsep="1" id="table_tkb_tnk_bt">
+   <title>绿头鸭的正常发育过程</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>
+       <p>鸭龄</p>
+      </entry>
+      <entry>
+       <p>重要时刻</p>
+      </entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>
+       <p>7 周</p>
+      </entry>
+      <entry>
+       <p>第一次尝试飞起来</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>12-14 周</p>
+      </entry>
+      <entry>
+       <p>体重达到成年鸭子的水平</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>1 年</p>
+      </entry>
+      <entry>
+       <p>具有繁殖能力</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_tlf_3h2_jt">
+	<title>开发和实施内容策略</title>
+	<taskbody>
+		<steps id="steps_xmc_nh2_jt">
+			<stepsection>制定内容策略。</stepsection>
+			<step>
+				<cmd>找出利益相关者并与他们进行沟通。</cmd>
+			</step>
+			<step>
+				<note>编写一份商业案例来定义项目成功的标准。</note>
+				<cmd>确定实施目标和衡量标准。</cmd>
+			</step>
+			<step id="step_bpk_cpb_4cb">
+				<cmd>定义角色和职责。</cmd>
+				<stepxmp>
+					<p>角色：</p>
+					<ul>
+						<li>教育</li>
+						<li>开发</li>
+						<li>审阅</li>
+						<li>批准</li>
+					</ul>
+				</stepxmp>
+			</step>
+			<step>
+				<cmd>确定时间表和里程碑。</cmd>
+			</step>
+			<stepsection>实施内容策略。</stepsection>
+			<step>
+				<cmd>建立内容创作系统。</cmd>
+			</step>
+			<step>
+				<cmd>迁移旧内容。</cmd>
+				<choices id="choices_zwl_4h2_jt">
+					<choice>将所有内容迁移到新系统中。</choice>
+					<choice>选择并迁移优先级较高的内容。</choice>
+					<choice>实时迁移</choice>
+					<choice>对迁移方法进行评估</choice>
+					<choice>不迁移任何内容</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>交付内容</cmd>
+				<choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_g43_ph2_jt">
+					<chhead>
+						<choptionhd>交付方式</choptionhd>
+						<chdeschd>优势</chdeschd>
+					</chhead>
+					<chrow>
+						<choption>PDF</choption>
+						<chdesc>可以进行视觉设计，便于打印</chdesc>
+					</chrow>
+					<chrow>
+						<choption>HTML</choption>
+						<chdesc>可以进行响应式设计，可访问性和交互性好</chdesc>
+					</chrow>
+					<chrow>
+						<choption>EPUB</choption>
+						<chdesc>不联网也可以访问的电子内容</chdesc>
+					</chrow>
+				</choicetable>
+			</step>
+			<step>
+				<cmd>获取项目知识。</cmd>
+				<substeps id="substeps_fhj_qh2_jt">
+					<substep>
+						<cmd>整理内容模式、写作规范和最佳实践并形成文档。</cmd>
+					</substep>
+					<substep>
+						<cmd>为写作人员提供在新环境中写作的培训。</cmd>
+					</substep>
+					<substep>
+						<cmd>为员工提供新系统维护方面的培训。</cmd>
+					</substep>
+				</substeps>
+			</step>
+			<step>
+				<cmd>确保长期成功。</cmd>
+				<stepresult>
+					<p>你现在可以将项目开始时列出的事项标记为已完成的工作。</p>
+				</stepresult>
+			</step>
+		</steps>
+	</taskbody>
+</task>

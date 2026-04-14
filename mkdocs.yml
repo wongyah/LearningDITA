@@ -103,23 +103,23 @@ nav:
       - course02-authoring_concepts/concept_intro/lc_example_files.md
       - course02-authoring_concepts/concept_intro/lc_creating_new.md
       - course02-authoring_concepts/concept_intro/lc_basic_elements.md
-      - course02-authoring_concepts/concept_intro/l_new_concept.md
+      - course02-authoring_concepts/concept_intro/sa_new_concept.md
     - 图片和表格:
       - course02-authoring_concepts/images_and_tables/index.md
       - course02-authoring_concepts/images_and_tables/lc_images.md
       - course02-authoring_concepts/images_and_tables/lc_simpletables.md
       - course02-authoring_concepts/images_and_tables/lc_tables.md
-      - course02-authoring_concepts/images_and_tables/l_concept_images_tables_exercise.md
+      - course02-authoring_concepts/images_and_tables/sa_concept_images_tables.md
     - 更多元素:
       - course02-authoring_concepts/more_elements/index.md
       - course02-authoring_concepts/more_elements/lc_inline.md
       - course02-authoring_concepts/more_elements/lc_elements.md
-      - course02-authoring_concepts/more_elements/l_concept_elements.md
+      - course02-authoring_concepts/more_elements/sa_concept_elements.md
     - 高级元素:
       - course02-authoring_concepts/advanced/index.md
       - course02-authoring_concepts/advanced/lc_advanced.md
       - course02-authoring_concepts/advanced/lc_more_advanced.md
-      - course02-authoring_concepts/advanced/l_concept_advanced.md
+      - course02-authoring_concepts/advanced/sa_concept_advanced.md
     - 最佳实践:
       - course02-authoring_concepts/best_practices/index.md
       - course02-authoring_concepts/best_practices/lc_formatting.md
@@ -132,7 +132,7 @@ nav:
       - course03-authoring_tasks/task_intro/lc_strict_general.md
       - course03-authoring_tasks/task_intro/lc_creating_new.md
       - course03-authoring_tasks/task_intro/lc_optional_elements.md
-      - course03-authoring_tasks/task_intro/l_new_task.md
+      - course03-authoring_tasks/task_intro/sa_new_task.md
     - 插入操作流程:
       - course03-authoring_tasks/steps/index.md
       - course03-authoring_tasks/steps/lc_steps_w_task.md
@@ -141,14 +141,14 @@ nav:
       - course03-authoring_tasks/steps/lc_substep.md
       - course03-authoring_tasks/steps/lc_stepresults.md
       - course03-authoring_tasks/steps/lc_stepsection.md
-      - course03-authoring_tasks/steps/l_task_steps.md
+      - course03-authoring_tasks/steps/sa_task_steps.md
     - 插入收尾性元素:
       - course03-authoring_tasks/finishing/index.md
       - course03-authoring_tasks/finishing/lc_results.md
       - course03-authoring_tasks/finishing/lc_example.md
       - course03-authoring_tasks/finishing/lc_whatsnext.md
-      - course03-authoring_tasks/finishing/l_task_finishing.md
-    - 插入收尾性元素:
+      - course03-authoring_tasks/finishing/sa_task_finishing.md
+    - 最佳实践:
       - course03-authoring_tasks/best_practices/index.md
       - course03-authoring_tasks/best_practices/lc_bp_planning.md
       - course03-authoring_tasks/best_practices/lc_bp_context.md

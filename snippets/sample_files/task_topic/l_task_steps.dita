@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task">
+	<title>观看野鸭</title>
+	<shortdesc/>
+	<taskbody>
+		<prereq>
+			<p>去观看野鸭之前，必须先了解一下野鸭长什么样。</p>
+		</prereq>
+		<context>
+			<p>观看野鸭可以让人平心静气、放松身心。</p>
+			<p>阅读本文可以让你的野鸭观看之旅更加完美。</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>选择一个观看鸭子的地方。</cmd>
+				<info>
+					<p>通常，野外靠近水源的地方容易发现鸭子。</p>
+				</info>
+			</step>
+			<step>
+				<cmd>挑选一本用来识别鸭子的野外手册。</cmd>
+				<choices id="choices_z5d_2mc_bt">
+					<choice>很多现代的观鸭爱好者喜欢使用《西布利观鸟指南》。</choice>
+					<choice>传统的观鸭爱好者喜欢使用《彼得森野外指南》。</choice>
+				</choices>
+			</step>
+			<step>
+				<cmd>寻找一些质量好的光学仪器。</cmd>
+				<choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_bwc_czc_bt">
+					<chhead>
+						<choptionhd>
+							<p>种类</p>
+						</choptionhd>
+						<chdeschd>
+							<p>优点</p>
+						</chdeschd>
+					</chhead>
+					<chrow>
+						<choption>
+							<p>双筒望远镜</p>
+						</choption>
+						<chdesc>
+							<p>视场大，便于快速观察。</p>
+						</chdesc>
+					</chrow>
+					<chrow>
+						<choption>
+							<p>鉴识望远镜</p>
+						</choption>
+						<chdesc>
+							<p>倍率高，聚光性能好。</p>
+						</chdesc>
+					</chrow>
+				</choicetable>
+			</step>
+			<step>
+				<cmd>去观看鸭子。</cmd>
+				<substeps id="substeps_hmn_vvc_bt">
+					<substep>
+						<cmd>四处走走。</cmd>
+					</substep>
+					<substep>
+						<cmd>如果你看到一只鸭子，停下来。</cmd>
+					</substep>
+					<substep>
+						<cmd>识别一下这只鸭子的种类。</cmd>
+					</substep>
+				</substeps>
+			</step>
+			<step>
+				<cmd>如果你识别出了这只鸭子的种类，请将其记录在你的指南里。</cmd>
+				<stepxmp><image href="checklist.png"/></stepxmp>
+				<stepresult><p>你将拥有一条可以终生保留的观鸭记录。</p></stepresult>
+			</step>
+			<stepsection>一旦识别出了这只鸭子的种类，你就可以花些时间观察它的行为。</stepsection>
+			<step>
+				<note>观察鸭子的行为时，不要打扰到它们。如果它们意识到周围有人，行为就会不一样。</note>
+				<cmd>观察鸭子们是如何互动的、它们吃什么或者它们如何以及何时整理羽毛。</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

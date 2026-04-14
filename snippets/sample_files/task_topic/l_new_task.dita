@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task">
+	<title>观赏野鸭</title>
+	<shortdesc/>
+	<taskbody>
+		<prereq>
+			<p>去观赏野鸭之前，必须先了解一下野鸭长什么样。</p>
+		</prereq>
+		<context>
+			<p>观赏野鸭可以让人平心静气、放松身心。</p>
+			<p>阅读本文可以让你的野鸭观看之旅更加完美。</p>
+		</context>
+	</taskbody>
+</task>
