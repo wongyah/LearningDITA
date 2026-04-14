@@ -29,212 +29,212 @@
 
 ## 随堂练习
 
-请继续使用文件`lesson2/l_concept_images_tables_start.dita`进行练习，将`<table>`元素插入到文件中。
+<!-- !!! note "注意"
+    视频中使用了另一种方法在DITA中插入表格： [oXygen XML Editor](https://oxygenxml.com/) 表格向导。本次练习将教你如何使用代码在DITA中插入表格。 -->
 
-!!! note "注意"
-    如果你使用的是支持DITA的编辑器，当你按照示例练习时，编辑器可能会在`<table>`元素中自动插入一些子元素。
+1. 打开上一节使用的练习文件 `lesson2/l_concept_images_tables_start.dita`。
 
-!!! note "注意"
-    视频中使用了另一种方法在DITA中插入表格： [oXygen XML Editor](https://oxygenxml.com/) 表格向导。本次练习将教你如何使用代码在DITA中插入表格。
+2. 在 `<simpletable>` 元素的后面，插入一个 `<table>` 元素如下：
 
-1. 在`<simpletable>`元素的后面，插入一个`<table>`元素如下：
-
-    ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-    <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      </simpletable>
-      <table>
-      </table>
-     </conbody>
-    </concept>
-    ```
-
-2. 在`<table>`元素中，插入一个`<title>`元素，并添加内容如下：
+    !!! note "注意"
+        如果你使用的是支持DITA的编辑器，当你按照示例练习时，编辑器可能会在`<table>`元素中自动插入一些子元素。
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <table>
-       <title>绿头鸭的正常发育过程</title>
-      </table>
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        </simpletable>
+        <table>
+        </table>
+      </conbody>
     </concept>
     ```
 
-    `<title>`元素是可选元素，可以为表格添加上下文信息，与在`<fig>`元素中使用它为图片添加标题一样。
-
-3. 在`<title>`元素的后面，插入一个`<tgroup>`元素如下：
+3. 在 `<table>` 元素中，插入一个 `<title>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <title>绿头鸭的正常发育过程</title>
-      <tgroup cols="2">
-      </tgroup>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <table>
+          <title>绿头鸭的正常发育过程</title>
+        </table>
+      </conbody>
     </concept>
     ```
 
-    `<tgroup>`元素是表格的主体。`<tgroup>`元素有一个`cols`属性，可以用来设置表格的列数。在本例中，`col="2"`表示这个表格有两列。
+    `<title>` 元素是可选元素，可以为表格添加上下文信息，与在 `<fig>` 元素中使用它为图片添加标题一样。
 
-    一个`<table>` 元素中可以有多个`<tgroup>`元素。如此以来，多个标题行不同的表格或者列数不同的表格也可以共用一个标题。
-
-4. 在`<tgroup>`元素中，插入两个`<colspec>`元素，并添加内容如下：
+4. 在 `<title>` 元素的后面，插入一个 `<tgroup>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <tgroup cols="2">
-       <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-       <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <title>绿头鸭的正常发育过程</title>
+        <tgroup cols="2">
+        </tgroup>
+        ...
+      </conbody>
     </concept>
     ```
 
-    `<colspec>`元素使用属性为表格设置列参数，比如列名、列号和列宽。在本例中，`colname`属性将两个表格列分别命名为`c1`和`c2`，`colnum`属性则指定了两个表格列的前后顺序。
+    `<tgroup>` 元素是表格的主体。`<tgroup>` 元素有一个 `cols` 属性，可以用来设置表格的列数。在本例中，`col="2"` 表示这个表格有两列。
 
-    `colwidth`属性是一个可选属性，用来控制各个表格列的相对列宽。在本例中，各个表格列的`colwidth`属性拥有相同的属性值，表示它们的列宽相等。
+    一个 `<table>` 元素中可以有多个 `<tgroup>` 元素。如此以来，多个标题行不同的表格或者列数不同的表格也可以共用一个标题。
 
-5. 在最后一个`<colspec>`元素的后面，插入一个`<thead>`元素如下：
+5. 在 `<tgroup>` 元素中，插入两个 `<colspec>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-      <thead>
-      </thead>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+        ...
+      </conbody>
     </concept>
     ```
 
-    `<thead>`元素可以为表格添加标题行。与`<simpletable>`元素的子元素`<sthead>`不同，`<thead>`元素中可以包含多个标题行。
+    `<colspec>` 元素使用属性为表格设置列参数，比如列名、列号和列宽。在本例中，`colname` 属性将两个表格列分别命名为 `c1` 和 `c2`，`colnum` 属性则指定了两个表格列的前后顺序。
 
-6. 在`<thead>`元素中，插入一个`<row>`元素如下：
+    `colwidth` 属性是一个可选属性，用来控制各个表格列的相对列宽。在本例中，各个表格列的 `colwidth` 属性拥有相同的属性值，表示它们的列宽相等。
+
+6. 在最后一个 `<colspec>` 元素的后面，插入一个 `<thead>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <thead>
-       <row>
-       </row>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+        <thead>
+        </thead>
+        ...
+      </conbody>
     </concept>
     ```
 
-    `<row>`元素代表表格中的一行，即表格行。
+    `<thead>` 元素可以为表格添加标题行。与 `<simpletable>` 元素的子元素 `<sthead>` 不同，`<thead>` 元素中可以包含多个标题行。
 
-7. 在`<row>`元素中，插入两个`<entry>`元素，并添加内容如下：
+7. 在 `<thead>` 元素中，插入一个 `<row>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <row>
-       <entry><p>鸭龄</p></entry>
-       <entry><p>重要时刻</p></entry>
-      </row>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <thead>
+          <row>
+          </row>
+        ...
+      </conbody>
     </concept>
     ```
 
-    每个`<entry>`元素都代表表格行中的一个单元格。在本例中，按照最佳实践，每个`<entry>`元素中的文本都放在了`<p>`元素里。
+    `<row>` 元素代表表格中的一行，即表格行。
 
-8. 在`<thead>`元素的后面，插入一个`<tbody>`元素如下：
+8. 在 `<row>` 元素中，插入两个 `<entry>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      </thead>
-      <tbody>
-      </tbody>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <row>
+          <entry><p>鸭龄</p></entry>
+          <entry><p>重要时刻</p></entry>
+        </row>
+        ...
+      </conbody>
     </concept>
     ```
 
-    `<tbody>`元素是表格的数据区。和`<thead>`元素的结构类似，`<tbody>`元素中可以包含`<row>`元素，`<row>`元素中可以包含`<entry>`元素。
+    每个 `<entry>` 元素都代表表格行中的一个单元格。在本例中，按照最佳实践，`<entry>` 元素中的文本都放在了 `<p>` 元素里。
 
-9. 在`<tbody>`元素中，插入一个`<row>`元素，并添加内容如下：
+9. 在 `<thead>` 元素的后面，插入一个 `<tbody>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <tbody>
-       <row>
-        <entry><p>7 周</p></entry>
-        <entry><p>第一次尝试飞起来</p></entry>
-       </row>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        </thead>
+        <tbody>
+        </tbody>
+        ...
+      </conbody>
     </concept>
     ```
 
-10. 在刚刚插入的`<row>`元素的后面，再插入两个`<row>`元素，并添加内容如下：
+    `<tbody>` 元素是表格的数据区。和 `<thead>` 元素的结构类似，`<tbody>` 元素中可以包含 `<row>` 元素，`<row>` 元素中可以包含 `<entry>` 元素。
+
+10.  在 `<tbody>` 元素中，插入一个 `<row>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      </row>
-      <row>
-       <entry><p>12-14 周</p></entry>
-       <entry><p>体重达到成年鸭子的水平</p></entry>
-      </row>
-      <row>
-       <entry><p>1 年</p></entry>
-       <entry><p>具有繁殖能力</p></entry>
-      </row>
-      ...
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <tbody>
+          <row>
+            <entry><p>7 周</p></entry>
+            <entry><p>第一次尝试飞起来</p></entry>
+          </row>
+        ...
+      </conbody>
     </concept>
     ```
 
-    一个`<tbody>` 元素中可以有一个或多个`<row>`元素。
+11.  在刚刚插入的 `<row>` 元素的后面，再插入两个 `<row>` 元素，并添加内容如下：
 
-11. 对照[随堂练习的参考答案] (`lesson2/l_concept_images_tables.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson2/l_concept_images_tables_start.dita`)。
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+    <concept id="concept_images_tables">
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        </row>
+        <row>
+          <entry><p>12-14 周</p></entry>
+          <entry><p>体重达到成年鸭子的水平</p></entry>
+        </row>
+        <row>
+          <entry><p>1 年</p></entry>
+          <entry><p>具有繁殖能力</p></entry>
+        </row>
+        ...
+      </conbody>
+    </concept>
+    ```
+
+    一个 `<tbody>` 元素中可以有一个或多个 `<row>` 元素。
+
+12. 对照[随堂练习的参考答案] (`lesson2/l_concept_images_tables.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson2/l_concept_images_tables_start.dita`)。
 
 ## 课后练习
 

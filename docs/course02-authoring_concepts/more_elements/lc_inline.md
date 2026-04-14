@@ -27,13 +27,7 @@ DITA使用行内元素为段落中的文本片段添加行内样式：
     你看到的文件内容应该是这样的：
 
     ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-    <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-     </conbody>
-    </concept>
+    --8<-- "sample_files/concept_topic/l_concept_elements_start.dita"
     ```
 
 2. 插入一个`<p>`元素（其中包含`<b>`、`<i>`和`<u>`元素），如下：
@@ -42,10 +36,10 @@ DITA使用行内元素为段落中的文本片段添加行内样式：
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      <p>鸭子出生后的头<u>两个星期</u>，每天<b>24小时</b>随时需要<i>进食</i>和<i>喝水</i>。</p>
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        <p>鸭子出生后的头<u>两个星期</u>，每天<b>24小时</b>随时需要<i>进食</i>和<i>喝水</i>。</p>
+      </conbody>
     </concept>
     ```
 
@@ -61,10 +55,11 @@ DITA使用行内元素为段落中的文本片段添加行内样式：
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      <p>鸭子出生后的头<varname>两个星期</varname>，每天<term>24小时</term>随时需要<cite>进食</cite>和<cite>喝水</cite>。</p>
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <p>鸭子出生后的头<varname>两个星期</varname>，每天<term>24小时</term>随时需要<cite>进食</cite>和<cite>喝水</cite>。</p>
+      </conbody>
     </concept>
     ```
 
@@ -76,10 +71,11 @@ DITA使用行内元素为段落中的文本片段添加行内样式：
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      <p>由于鸭饲料又干又硬，小鸭子需要充足的水（H<sub>2</sub>O）来保持喙部清洁。</p>
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <p>由于鸭饲料又干又硬，小鸭子需要充足的水（H<sub>2</sub>O）来保持喙部清洁。</p>
+      </conbody>
     </concept>
     ```
 
@@ -91,10 +87,11 @@ DITA使用行内元素为段落中的文本片段添加行内样式：
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给鸭子喂食</title>
-     <conbody>
-      <p>你可以用回收的塑料容器自制矮矮的、防溢出的喂食器，也可以从 E-Z-Feed<sup>2</sup> 购买现成的产品。</p>
-     </conbody>
+      <title>给鸭子喂食</title>
+      <conbody>
+        ...
+        <p>你可以用回收的塑料容器自制矮矮的、防溢出的喂食器，也可以从 E-Z-Feed<sup>2</sup> 购买现成的产品。</p>
+      </conbody>
     </concept>
     ```
 

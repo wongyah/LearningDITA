@@ -18,11 +18,7 @@
     你看到的文件内容应该是这样的：
    
     ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-    <concept id="my_first_concept">
-     <title>xyz</title>
-    </concept>
+    --8<-- "sample_files/concept_topic/l_new_concept_start.dita"
     ```
 
     - 第一行（以 `<?xml` 开头）是XML声明。XML声明是XML文件的一个标准组成部分。
@@ -53,9 +49,9 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野鸭的种类</title>
-     <conbody>
-     </conbody>
+      <title>野鸭的种类</title>
+      <conbody>
+      </conbody>
     </concept>
     ```
     

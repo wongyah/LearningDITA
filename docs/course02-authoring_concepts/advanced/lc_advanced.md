@@ -16,13 +16,7 @@
         如果你使用的是支持DITA的编辑器，请使用文本模式，不要使用写作模式或者其他可视模式。
 
     ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-    <concept id="concept_advanced">
-     <title>描写鸭子</title>
-     <conbody>
-     </conbody>
-    </concept>
+    --8<-- "sample_files/concept_topic/l_concept_advanced_start.dita"
     ```
 
 2. 在 `<conbody>` 元素中，插入一个 `<codeblock>` 元素，并添加内容如下：
@@ -31,14 +25,14 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_advanced">
-     <title>描写鸭子</title>
-     <conbody>
-      <codeblock>
-       duckdata> add entry (绿头鸭);
-       1 entry added (0.05 sec)
-       duckdata> _
-      </codeblock>
-     </conbody>
+      <title>描写鸭子</title>
+      <conbody>
+        <codeblock>
+        duckdata> add entry (绿头鸭);
+        1 entry added (0.05 sec)
+        duckdata> _
+        </codeblock>
+      </conbody>
     </concept>
     ```
 
@@ -55,12 +49,12 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_advanced">
-     <title>描写鸭子</title>
-     <conbody>
-      ...
-      </codeblock>
-      <p>要在数据库中添加一条关于鸭子种类的记录，请在命令行中输入<codeph>add entry</codeph>，接着在圆括号中输入鸭子的种类，然后按回车键。</p>
-     </conbody>
+      <title>描写鸭子</title>
+      <conbody>
+        ...
+        </codeblock>
+        <p>要在数据库中添加一条关于鸭子种类的记录，请在命令行中输入<codeph>add entry</codeph>，接着在圆括号中输入鸭子的种类，然后按回车键。</p>
+      </conbody>
     </concept>
     ```
 
@@ -72,12 +66,12 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_advanced">
-     <title>描写鸭子</title>
-     <conbody>
-      ...
-      </p>
-      <lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" format="html" scope="external">可比农夫家门前的池塘清澈多了！他家的鸭子在那个池塘游泳。一群纯洁的野鸭纷纷飞向这里。大自然的美，竟无一人懂得欣赏。鸟语花香，相映成趣。但世上的少男少女，谁又能真正懂得欣赏大自然的浑然天成和生机盎然之美?</lq>
-     </conbody>
+      <title>描写鸭子</title>
+      <conbody>
+        ...
+        </p>
+        <lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" format="html" scope="external">可比农夫家门前的池塘清澈多了！他家的鸭子在那个池塘游泳。一群纯洁的野鸭纷纷飞向这里。大自然的美，竟无一人懂得欣赏。鸟语花香，相映成趣。但世上的少男少女，谁又能真正懂得欣赏大自然的浑然天成和生机盎然之美?</lq>
+      </conbody>
     </concept>
     ```
 

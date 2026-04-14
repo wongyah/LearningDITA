@@ -13,13 +13,7 @@
     你看到的文件内容应该是这样的：
 
     ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-    <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-     </conbody>
-    </concept>
+    --8<-- "sample_files/concept_topic/l_concept_images_tables_start.dita"
     ```
 
 2. 在`<conbody>`元素中，插入一个`<image>`元素如下（代码示例插入的图片为`lesson2/images/ducklings_swimming.jpg`，来源于 Flickr, Micolo J.）：
@@ -28,10 +22,10 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      <image href="images/ducklings_swimming.jpg"/>
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        <image href="images/ducklings_swimming.jpg"/>
+      </conbody>
     </concept>
     ```
 
@@ -43,14 +37,14 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_images_tables">
-     <title>小鸭子的生长发育</title>
-     <conbody>
-      ...
-      <fig>
-       <title>奔跑的小鸭子</title>
-       <image href="images/ducklings_running.jpg"/>
-      </fig>
-     </conbody>
+      <title>小鸭子的生长发育</title>
+      <conbody>
+        ...
+        <fig>
+          <title>奔跑的小鸭子</title>
+          <image href="images/ducklings_running.jpg"/>
+        </fig>
+      </conbody>
     </concept>
     ```
 

@@ -10,73 +10,75 @@
 
 ## 随堂练习
 
-请继续使用文件 `lesson3/l_concept_elements_start.dita` 练习，将上面提到的元素插入到文件中。
+1. 打开上一节使用的练习文件 `lesson3/l_concept_elements_start.dita`。
 
-1. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<fn>` 元素，如下：
+2. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<fn>` 元素，如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      <p>小鸭子饮食中需要的蛋白质含量比成年鸭要高。<fn>对于刚出生的小鸭子，推荐饮食中的蛋白质含量为18-20%。</fn></p>
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <p>小鸭子饮食中需要的蛋白质含量比成年鸭要高。<fn>对于刚出生的小鸭子，推荐饮食中的蛋白质含量为18-20%。</fn></p>
+      </conbody>
     </concept>
     ```
 
     `<fn>` 元素标明了脚注编号在正文中的位置。默认情况下，当你将DITA文件发布为可视格式时，`<fn>` 元素中的文本显示在页面底部（PDF文件）或者主题的末尾（HTML页面）。
 
-2. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<menucascade>` 元素，如下：
+3. 在最后一个 `<p>` 元素的后面，再插入一个 `<p>` 元素。新的 `<p>` 元素中包含一个 `<menucascade>` 元素，如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      <p>你可以使用电子表格来记录你需要为小鸭子补充鸭粮和水的时间，点击<menucascade> </menucascade>。</p>
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <p>你可以使用电子表格来记录你需要为小鸭子补充鸭粮和水的时间，点击<menucascade> </menucascade>。</p>
+      </conbody>
     </concept>
     ```
 
     在本例中，`<menucascade>` 元素用来说明新建电子表格需要使用的菜单项。
 
-3. 在 `<menucascade>` 元素中，插入一个 `<uicontrol>` 元素，并添加内容如下：
+4. 在 `<menucascade>` 元素中，插入一个 `<uicontrol>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      ...
-      <menucascade>
-       <uicontrol>文件</uicontrol>
-      </menucascade>
-      ...
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <menucascade>
+          <uicontrol>文件</uicontrol>
+        </menucascade>
+        ...
+      </conbody>
     </concept>
     ```
 
     在本例中，`<uicontrol>` 元素中的内容是新建电子表格时需要使用的第一个菜单项的名称："文件"。
 
-4. 在 `<uicontrol>` 元素的后面，再插入两个 `<uicontrol>` 元素，并添加内容如下：
+5. 在 `<uicontrol>` 元素的后面，再插入两个 `<uicontrol>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      ...
-      <menucascade>
-       <uicontrol>文件</uicontrol>
-       <uicontrol>新建</uicontrol>
-       <uicontrol>电子表格</uicontrol>
-      </menucascade>
-      ...
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <menucascade>
+          <uicontrol>文件</uicontrol>
+          <uicontrol>新建</uicontrol>
+          <uicontrol>电子表格</uicontrol>
+        </menucascade>
+        ...
+      </conbody>
     </concept>
     ```
 
@@ -86,91 +88,91 @@
 
     `<uicontrol>` 也可以单独使用，不是非和要 `<menucascade>` 一起用。例如，你可以使用 `<uicontrol>` 元素标记一个词汇，以表示这个词汇是用户应该点击的按钮名称。由于 `<uicontrol>` 元素中的内容会以特殊格式显示，所以没必要在 `<uicontrol>` 元素中再使用 `<b>` 元素或者其他行内元素。
 
-5. 在 `<menucascade>` 元素的后面，依次插入一个 `<p>` 元素和一个 `<dl>` 元素如下：
+6. 在 `<menucascade>` 元素的后面，依次插入一个 `<p>` 元素和一个 `<dl>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      ...
-      </menucascade>
-      <p>家鸭可以根据体重分为不同的等级。有了这些体重等级，你就可以基于鸭子的食量来选择鸭子品种。</p>
-      <dl>
-      </dl>
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        </menucascade>
+        <p>家鸭可以根据体重分为不同的等级。有了这些体重等级，你就可以基于鸭子的食量来选择鸭子品种。</p>
+        <dl>
+        </dl>
+      </conbody>
     </concept>
     ```
 
     `<dl>` 元素可以为定义列表建立内容框架。
 
-6. 在 `<dl>` 元素中，插入一个 `<dlentry>` 元素如下：
+7. 在 `<dl>` 元素中，插入一个 `<dlentry>` 元素如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      ...
-      <dl>
-       <dlentry>
-       </dlentry>
-      ...
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <dl>
+          <dlentry>
+          </dlentry>
+        ...
+      </conbody>
     </concept>
     ```
 
     每个 `<dlentry>` 元素中都有一个术语和它的定义。一个 `<dlentry>` 元素中可以有一个或多个 `<dd>` 元素。
 
-7. 在 `<dl>` 元素中，插入一个 `<dt>` 元素和一个 `<dd>` 元素，并添加内容如下：
+8. 在 `<dl>` 元素中，插入一个 `<dt>` 元素和一个 `<dd>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      ...
-      <dlentry>
-       <dt>矮脚鸭</dt>
-       <dd>体重最轻、飞行能力最强的鸭子，比如绿头鸭。</dd>
-      ...
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        <dlentry>
+          <dt>矮脚鸭</dt>
+          <dd>体重最轻、飞行能力最强的鸭子，比如绿头鸭。</dd>
+        ...
+      </conbody>
     </concept>
     ```
 
     `<dt>` 元素中的内容是术语，`<dd>` 元素中的内容是术语的定义。
 
-8. 在 `<dlentry>` 元素的后面，再插入三个 `<dlentry>` 元素，并添加内容如下：
+9. 在 `<dlentry>` 元素的后面，再插入三个 `<dlentry>` 元素，并添加内容如下：
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="concept_elements">
-     <title>给小鸭子喂食</title>
-     <conbody>
-      ...
-      </dlentry>
-      <dlentry>
-       <dt>轻型鸭</dt>
-       <dd>体重第二轻、产蛋最好的鸭种，比如卡基·康贝尔鸭。</dd>
-      </dlentry>
-      <dlentry>
-       <dt>中型鸭</dt>
-       <dd>体重中等、性情通常最温顺的鸭种，比如瑞典鸭。</dd>
-      </dlentry>
-      <dlentry>
-       <dt>重型鸭</dt>
-       <dd>体重最重、性情通常最友善的鸭种，比如北京鸭。</dd>
-      </dlentry>
-      ...
-     </conbody>
+      <title>给小鸭子喂食</title>
+      <conbody>
+        ...
+        </dlentry>
+        <dlentry>
+          <dt>轻型鸭</dt>
+          <dd>体重第二轻、产蛋最好的鸭种，比如卡基·康贝尔鸭。</dd>
+        </dlentry>
+        <dlentry>
+          <dt>中型鸭</dt>
+          <dd>体重中等、性情通常最温顺的鸭种，比如瑞典鸭。</dd>
+        </dlentry>
+        <dlentry>
+          <dt>重型鸭</dt>
+          <dd>体重最重、性情通常最友善的鸭种，比如北京鸭。</dd>
+        </dlentry>
+        ...
+      </conbody>
     </concept>
     ```
 
-9. 对照[随堂练习的参考答案] (`lesson3/l_concept_elements.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson3/l_concept_elements_start.dita`)。
+10. 对照[随堂练习的参考答案] (`lesson3/l_concept_elements.dita`)，自行批改一下你刚刚完成的练习作业 (`lesson3/l_concept_elements_start.dita`)。
 
 ## 课后练习
 

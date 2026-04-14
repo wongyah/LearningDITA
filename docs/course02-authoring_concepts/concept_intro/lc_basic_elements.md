@@ -21,10 +21,10 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野鸭的种类</title>
-     <conbody>
-      <p>北美的野鸭属于下列种类之一：</p>
-     </conbody>
+      <title>野鸭的种类</title>
+      <conbody>
+        <p>北美的野鸭属于下列种类之一：</p>
+      </conbody>
     </concept>
     ```
 
@@ -41,18 +41,18 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野鸭的种类</title>
-     <conbody>
-      ... 
-      <ul>
-       <li><p>钻水鸭</p></li>
-       <li><p>潜水鸭</p></li>
-       <li><p>海鸭</p></li>
-       <li><p>树鸭</p></li>
-       <li><p>天鹅</p></li>
-       <li><p>鹅</p></li>
-      </ul>
-     </conbody>
+      <title>野鸭的种类</title>
+      <conbody>
+        ... 
+        <ul>
+          <li><p>钻水鸭</p></li>
+          <li><p>潜水鸭</p></li>
+          <li><p>海鸭</p></li>
+          <li><p>树鸭</p></li>
+          <li><p>天鹅</p></li>
+          <li><p>鹅</p></li>
+        </ul>
+      </conbody>
     </concept>
     ```
 
@@ -71,16 +71,16 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野鸭的种类</title>
-     <conbody>
-      ... 
-      <p>在北美，体型最长的钻水鸭是：</p>
-      <ol>
-       <li><p>针尾鸭</p></li>
-       <li><p>野鸭</p></li>
-       <li><p>美洲黑鸭</p></li>
-      </ol>
-     </conbody>
+      <title>野鸭的种类</title>
+      <conbody>
+        ... 
+        <p>在北美，体型最长的钻水鸭是：</p>
+        <ol>
+          <li><p>针尾鸭</p></li>
+          <li><p>野鸭</p></li>
+          <li><p>美洲黑鸭</p></li>
+        </ol>
+      </conbody>
     </concept>
     ```
 
@@ -102,11 +102,11 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
     <concept id="my_first_concept">
-     <title>野鸭的种类</title>
-     <conbody>
-      ... 
-      <note><p>虽然针尾鸭是体型最长的钻水鸭，但野鸭通常被认为是最大的钻水鸭，因为它更重。</p></note>
-     </conbody>
+      <title>野鸭的种类</title>
+      <conbody>
+        ... 
+        <note><p>虽然针尾鸭是体型最长的钻水鸭，但野鸭通常被认为是最大的钻水鸭，因为它更重。</p></note>
+      </conbody>
     </concept>
     ```
 

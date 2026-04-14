@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_advanced">
- <title>描写鸭子</title>
- <conbody>
-  <codeblock>duckdata> add entry (绿头鸭)
+	<title>描写鸭子</title>
+	<conbody>
+		<codeblock>duckdata> add entry (绿头鸭)
 ;
 1 entry added (0.05 sec)
 duckdata> _
-  </codeblock>
-  <p>要在数据库中添加一条关于鸭子种类的记录，请在命令行中输入<codeph>add entry</codeph>，接着在圆括号中输入鸭子的种类，然后按回车键。</p>
-  <lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" format="html" scope="external">可比农夫家门前的池塘清澈多了！他家的鸭子在那个池塘游泳。一群纯洁的野鸭纷纷飞向这里。大自然的美，竟无一人懂得欣赏。鸟语花香，相映成趣。但世上的少男少女，谁又能真正懂得欣赏大自然的浑然天成和生机盎然之美?</lq>
-  <section>
-   <title>分享鸭子数据库</title>
-   <p>将鸭子数据库导出为HTML文件，以便在网站上分享。你还可以为数据库添加一个下载链接，让用户自行下载。</p>
-   <draft-comment>你确定要提供下载渠道吗？</draft-comment>
-   <required-cleanup>
-    <p>请考虑一下是否可以为用户提供一个提交反馈或者鸭子种类等建议的渠道。</p>
-   </required-cleanup>
-  </section>
- </conbody>
+		</codeblock>
+		<p>要在数据库中添加一条关于鸭子种类的记录，请在命令行中输入<codeph>add entry</codeph>，接着在圆括号中输入鸭子的种类，然后按回车键。</p>
+		<lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" format="html" scope="external">可比农夫家门前的池塘清澈多了！他家的鸭子在那个池塘游泳。一群纯洁的野鸭纷纷飞向这里。大自然的美，竟无一人懂得欣赏。鸟语花香，相映成趣。但世上的少男少女，谁又能真正懂得欣赏大自然的浑然天成和生机盎然之美?</lq>
+		<section>
+			<title>分享鸭子数据库</title>
+			<p>将鸭子数据库导出为HTML文件，以便在网站上分享。你还可以为数据库添加一个下载链接，让用户自行下载。</p>
+			<draft-comment>你确定要提供下载渠道吗？</draft-comment>
+			<required-cleanup>
+				<p>请考虑一下是否可以为用户提供一个提交反馈或者鸭子种类等建议的渠道。</p>
+			</required-cleanup>
+		</section>
+	</conbody>
 </concept>
