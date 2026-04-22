@@ -10,7 +10,7 @@ DITA 文件是 XML 文件的一种，而 XML 文件是纯文本文件。因此�
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
 <topic id="my-first-topic"> 
-    <title>你好，世界！</title> 
+	<title>你好，世界！</title> 
 </topic> 
 ```
 
@@ -20,14 +20,14 @@ DITA 文件是 XML 文件的一种，而 XML 文件是纯文本文件。因此�
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="my-first-topic">
-    <title>你好，世界！</title>
-    <body>
-        <p>在这里写一个段落</p>
-        <ul>
-            <li>有序列表很好用</li>
-            <li>尤其是列表项不少于两个的时候</li>
-        </ul>
-        <note>还有，别忘了写个注释！</note>
-    </body>
+	<title>你好，世界！</title>
+	<body>
+		<p>在这里写一个段落</p>
+		<ul>
+			<li>有序列表很好用</li>
+			<li>尤其是列表项不少于两个的时候</li>
+		</ul>
+		<note>还有，别忘了写个注释！</note>
+	</body>
 </topic>
 ```

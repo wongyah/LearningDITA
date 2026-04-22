@@ -4,6 +4,11 @@
 
 术语主题中的常用元素有：
 
-- `<glossentry>` - 术语主题的根元素
-- `<glossterm>` - 术语（词语或短语）
-- `<glossdef>` - 术语的定义
+`<glossentry>`
+: 术语主题的根元素
+
+`<glossterm>`
+: 术语（词语或短语）
+
+`<glossdef>`
+: 术语的定义

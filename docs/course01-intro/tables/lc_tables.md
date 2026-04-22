@@ -16,8 +16,11 @@
 
 基于 `<simpletable>` 元素，DITA还另外定制了两种特殊的表格：
 
-- `<properties>` - 属性表，只能用在参考型主题中。
-- `<choicetable>` - 选项表，只能用在任务型主题中。
+`<properties>`
+: 属性表，只能用在参考型主题中。
+
+`<choicetable>`
+: 选项表，只能用在任务型主题中。
 
 ## CALS 表格
 

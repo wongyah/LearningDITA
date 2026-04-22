@@ -6,11 +6,14 @@
 
 `<simpletable>`元素中的常用元素有：
 
-| 元素 | 说明 |
-|------|------|
-| `<sthead>` | 简单表格中的标题行。`<sthead>`元素中可以包含一个或多个`<stentry>`元素。一个`<simpletable>`元素中最多只能有一个`<sthead>`元素。 |
-| `<strow>` | 简单表格中的数据行。`<strow>`元素中可以包含任意数量的`<stentry>`元素。一个`<simpletable>`元素中可以有一个或多个`<strow>`元素。 |
-| `<stentry>` | 简单表格中的单元格。在`<simpletable>`元素中，`<stentry>`元素是用来盛放单元格内容的。根据最佳实践，单元格中的文本应该放在`<p>`元素中。 |
+`<sthead>`
+: 简单表格中的标题行。`<sthead>`元素中可以包含一个或多个`<stentry>`元素。一个`<simpletable>`元素中最多只能有一个`<sthead>`元素。
+
+`<strow>`
+: 简单表格中的数据行。`<strow>`元素中可以包含任意数量的`<stentry>`元素。一个`<simpletable>`元素中可以有一个或多个`<strow>`元素。
+
+`<stentry>`
+: 简单表格中的单元格。在`<simpletable>`元素中，`<stentry>`元素是用来盛放单元格内容的。根据最佳实践，单元格中的文本应该放在`<p>`元素中。
 
 本讲的主要内容是`<simpletable>`元素的基本用法。
 

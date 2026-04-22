@@ -27,10 +27,17 @@
 
 `<prolog>` 元素中的常用子元素有：
 
-- `<author>` - 写作人员或作者
-- `<critdates>` - 关键日期，比如创建日期（`<created>`）和修改日期（`<revised>`）
-- `<copyright>` - 版权信息，比如版权年份（`<copyryear>`）和版权所有者（`<copyrholder>`）
-- `<vrm>` - 产品的版本信息
+`<author>`
+: 写作人员或作者
+
+`<critdates>`
+: 关键日期，比如创建日期（`<created>`）和修改日期（`<revised>`）
+
+`<copyright>`
+: 版权信息，比如版权年份（`<copyryear>`）和版权所有者（`<copyrholder>`）
+
+`<vrm>`
+: 产品的版本信息
 
 !!! important "重要"
     `<prolog>` 元素只能为整个主题提供元数据，例如作者、创建日期和修订日期。在DITA中，`<prolog>`元素中的元数据不会用来筛选主题。
@@ -72,6 +79,11 @@
 
 如果需要其他属性，你可以让信息架构师利用DITA定制功能自行定义。下面是一些常见的定制属性：
 
-- `customer` - 客户信息
-- `region` - 地区或区域等地理信息。
-- `product-family` - 产品所属的系列等信息。
+`customer`
+: 客户信息
+
+`region`
+: 地区或区域等地理信息。
+
+`product-family`
+: 产品所属的系列等信息。
