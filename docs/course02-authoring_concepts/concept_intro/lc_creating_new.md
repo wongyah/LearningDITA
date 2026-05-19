@@ -18,7 +18,7 @@
     你看到的文件内容应该是这样的：
    
     ```xml
-    --8<-- "sample_files/concept_topic/l_new_concept_start.dita"
+    --8<-- "sample_files/concept_topic/lesson1/l_new_concept_start.dita"
     ```
 
     - 第一行（以 `<?xml` 开头）是XML声明。XML声明是XML文件的一个标准组成部分。

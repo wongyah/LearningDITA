@@ -13,7 +13,7 @@
     你看到的文件内容应该是这样的：
 
     ```xml
-    --8<-- "sample_files/concept_topic/l_concept_images_tables_start.dita"
+    --8<-- "sample_files/concept_topic/lesson2/l_concept_images_tables_start.dita"
     ```
 
 2. 在`<conbody>`元素中，插入一个`<image>`元素如下（代码示例插入的图片为`lesson2/images/ducklings_swimming.jpg`，来源于 Flickr, Micolo J.）：

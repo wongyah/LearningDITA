@@ -19,7 +19,7 @@
         如果你使用的是支持DITA的编辑器，请使用文本模式，不要使用写作模式或者其他可视模式。
 
     ```xml
-    --8<-- "sample_files/concept_topic/l_concept_advanced_start.dita"
+    --8<-- "sample_files/concept_topic/lesson4/l_concept_advanced_start.dita"
     ```
 
 2. 在 `<conbody>` 元素中，插入一个 `<codeblock>` 元素，并添加内容如下：

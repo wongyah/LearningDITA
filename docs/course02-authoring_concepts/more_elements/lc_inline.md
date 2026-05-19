@@ -40,7 +40,7 @@ DITA 使用行内元素为段落中的文本片段添加行内样式：
     你看到的文件内容应该是这样的：
 
     ```xml
-    --8<-- "sample_files/concept_topic/l_concept_elements_start.dita"
+    --8<-- "sample_files/concept_topic/lesson3/l_concept_elements_start.dita"
     ```
 
 2. 插入一个`<p>`元素（其中包含`<b>`、`<i>`和`<u>`元素），如下：
