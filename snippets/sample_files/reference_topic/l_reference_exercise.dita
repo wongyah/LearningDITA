@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_jgf_3df_vt">
+  <title>addEntry</title>
+  <refbody>
+    <section>在内容分析数据库中，<cmdname>addEntry</cmdname>命令可以为文档添加一个新版本。</section>
+    <refsyn>
+      <synph>-addEntry {nLanguage | nVersion | nOutput}</synph>
+    </refsyn>
+    <properties id="properties_qxt_3df_vt">
+      <prophead>
+        <proptypehd>是否必选</proptypehd>
+        <propvaluehd>参数</propvaluehd>
+        <propdeschd>描述</propdeschd>
+      </prophead>
+      <property>
+        <proptype>是</proptype>
+        <propvalue>nLanguage</propvalue>
+        <propdesc>默认显示的语言</propdesc>
+      </property>
+      <property>
+        <proptype></proptype>
+        <propvalue>nVersion</propvalue>
+        <propdesc>默认显示的内容版本</propdesc>
+      </property>
+      <property>
+        <proptype></proptype>
+        <propvalue>nOutput</propvalue>
+        <propdesc>需要交付的文档格式</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

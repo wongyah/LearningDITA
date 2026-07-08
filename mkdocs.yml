@@ -156,6 +156,15 @@ nav:
       - course03-authoring_tasks/best_practices/lc_bp_short.md
       - course03-authoring_tasks/best_practices/lc_bp_substeps.md
       - course03-authoring_tasks/best_practices/lc_bp_reuse.md
+  - 创建参考型主题和术语主题:
+    - 创建参考型主题:
+      - course04-authoring_gloss_reference/reference/index.md
+      - course04-authoring_gloss_reference/reference/lc_example_files.md
+      - course04-authoring_gloss_reference/reference/lc_about_ref.md
+      - course04-authoring_gloss_reference/reference/lc_creating_new_ref.md
+      - course04-authoring_gloss_reference/reference/lc_adding_refsyn.md
+      - course04-authoring_gloss_reference/reference/lc_adding_properties.md
+      - course04-authoring_gloss_reference/reference/sa_reference.md
 
 
 markdown_extensions:
