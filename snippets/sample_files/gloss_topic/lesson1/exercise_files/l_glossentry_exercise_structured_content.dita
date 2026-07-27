@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="structured_content">
+  <glossterm>结构化内容</glossterm>
+  <glossdef>按照既定方式组织在一起的可预测信息。</glossdef>
+</glossentry>

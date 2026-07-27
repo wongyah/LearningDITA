@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>关于内容策略的术语</title>
+  <topicref href="l_glossentry_exercise_structured_authoring.dita"/>
+  <topicref href="l_glossentry_exercise_structured_content.dita"/>
+  <topicref href="l_glossentry_exercise_searchable_content.dita"/>
+  <topicref href="l_glossentry_exercise_findable_content.dita"/>
+  <topicref href="l_glossentry_exercise_discoverable_content.dita"/>
+</map>

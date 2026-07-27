@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="duck_equipment">
+  <title>观鸭设备</title>
+  <glossentry id="binoculars">
+    <glossterm>双筒望远镜</glossterm>
+    <glossdef><p>一种用双眼观察远处物体的光学设备。</p></glossdef>
+  </glossentry>
+  <glossentry id="duck_bait">
+    <glossterm>鸭饲料</glossterm>
+    <glossdef><p>吸引鸭子的饲料，涵盖从颗粒饲料到廉价的白面包等。</p></glossdef>
+  </glossentry>  
+  <glossentry id="duck_call">
+    <glossterm>仿生鸭哨</glossterm>
+    <glossdef><p>一根装有芦苇的管子，可以模仿鸭子的叫声。</p></glossdef>
+  </glossentry>
+  <glossentry id="spotting_scope">
+    <glossterm>鉴识望远镜</glossterm>
+    <glossdef><p>一种用单眼观察远处物体的光学设备，可以比双筒望远镜看到更多细节。</p></glossdef>
+  </glossentry>
+</glossgroup>

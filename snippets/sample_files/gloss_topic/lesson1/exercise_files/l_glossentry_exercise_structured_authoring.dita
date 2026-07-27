@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="structured_authoring">
+  <glossterm>结构化写作</glossterm>
+  <glossdef>一种创建内容的编辑环境。在该编辑环境中，编辑软件会强制应用某种内容结构和模板。</glossdef>
+</glossentry>
