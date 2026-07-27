@@ -1,10 +1,10 @@
 # 练习资料
 
-请前往[百度网盘]{: target="_blank"}下载本课的练习资料 (`reference_samples` 文件夹)，并将其保存在一个容易查找的地方。
+请前往[百度网盘]{: target="_blank"}下载本课的练习资料 (`gloss_samples` 文件夹)，并将其保存在一个容易查找的地方。
 
 ## 资料说明
 
-在 `reference_samples` 文件夹中，只有一个子文件夹：`lesson1`。子文件夹里面有四个 DITA 文件：
+在 `gloss_samples` 文件夹中，有两个子文件夹：`lesson1` 和 `lesson2`。每个子文件夹对应一讲，里面都有四个 DITA 文件：
 
 - `l_filename_start.dita`：一个空文件，用来进行随堂练习。
 - `l_filename.dita`：随堂练习的参考答案，用来对照检查随堂练习的成果。

@@ -156,15 +156,28 @@ nav:
       - course03-authoring_tasks/best_practices/lc_bp_short.md
       - course03-authoring_tasks/best_practices/lc_bp_substeps.md
       - course03-authoring_tasks/best_practices/lc_bp_reuse.md
-  - 创建参考型主题和术语主题:
-    - 创建参考型主题:
-      - course04-authoring_gloss_reference/reference/index.md
-      - course04-authoring_gloss_reference/reference/lc_example_files.md
-      - course04-authoring_gloss_reference/reference/lc_about_ref.md
-      - course04-authoring_gloss_reference/reference/lc_creating_new_ref.md
-      - course04-authoring_gloss_reference/reference/lc_adding_refsyn.md
-      - course04-authoring_gloss_reference/reference/lc_adding_properties.md
-      - course04-authoring_gloss_reference/reference/sa_reference.md
+  - 创建参考型主题:
+    - 参考型主题简介:
+      - course04-authoring_reference/reference/index.md
+      - course04-authoring_reference/reference/lc_example_files.md
+      - course04-authoring_reference/reference/lc_about_ref.md
+      - course04-authoring_reference/reference/lc_creating_new_ref.md
+      - course04-authoring_reference/reference/lc_adding_refsyn.md
+      - course04-authoring_reference/reference/lc_adding_properties.md
+      - course04-authoring_reference/reference/sa_reference.md
+  - 创建术语主题:
+    - 创建术语词条主题:
+      - course05-authoring_gloss/glossary/index.md
+      - course05-authoring_gloss/glossary/lc_example_files.md
+      - course05-authoring_gloss/glossary/lc_about_glossentry.md
+      - course05-authoring_gloss/glossary/lc_new_glossentry.md
+      - course05-authoring_gloss/glossary/lc_glossary_map.md
+      - course05-authoring_gloss/glossary/sa_glossentry.md
+    - 创建术语词条主题:
+      - course05-authoring_gloss/glossgroup/index.md
+      - course05-authoring_gloss/glossgroup/lc_about_glossgroup.md
+      - course05-authoring_gloss/glossgroup/lc_new_glossgroup.md
+      - course05-authoring_gloss/glossgroup/sa_glossgroup.md
 
 
 markdown_extensions:

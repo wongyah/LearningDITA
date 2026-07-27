@@ -26,7 +26,7 @@
     <?xml version="1.0" encoding="utf-8"?>
     <!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
     <glossentry id="duck">
-     <glossterm></glossterm>
+      <glossterm></glossterm>
     </glossentry>
     ```
 
@@ -41,7 +41,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
     <glossentry id="duck">
-     <glossterm>鸭子</glossterm>
+      <glossterm>鸭子</glossterm>
     </glossentry>
     ```
 
@@ -53,9 +53,14 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
     <glossentry id="duck">
-     <glossterm>duck</glossterm>
-     <glossdef>
-      <p>一种会游泳的鸟类，趾间有蹼，喙宽而扁平，叫起来嘎嘎的。</p>
-     </glossdef>
+      <glossterm>duck</glossterm>
+      <glossdef>
+        <p>一种会游泳的鸟类，趾间有蹼，喙宽而扁平，叫起来嘎嘎的。</p>
+      </glossdef>
     </glossentry>
     ```
+
+4. 对照[随堂练习的参考答案] (`lesson1/l_glossentry.dita`)，自行批改一下你刚刚完成的练习作业。
+
+<!-- links -->
+[随堂练习的参考答案]: sa_glossentry.md#_2

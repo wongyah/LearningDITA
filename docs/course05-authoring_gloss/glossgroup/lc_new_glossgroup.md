@@ -20,7 +20,7 @@
     <?xml version="1.0" encoding="utf-8"?>
     <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
     <glossgroup id="duck_equipment">
-     <title></title>
+      <title></title>
     </glossgroup>
     ```
 
@@ -35,7 +35,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
     <glossgroup id="duck_equipment">
-     <title>观鸭设备</title>
+      <title>观鸭设备</title>
     </glossgroup>
     ```
 
@@ -47,11 +47,11 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
     <glossgroup id="duck_equipment">
-     <title>观鸭设备</title>
-     <glossentry id=""></glossentry>
-     <glossentry id=""></glossentry>
-     <glossentry id=""></glossentry>
-     <glossentry id=""></glossentry>
+      <title>观鸭设备</title>
+      <glossentry id=""></glossentry>
+      <glossentry id=""></glossentry>
+      <glossentry id=""></glossentry>
+      <glossentry id=""></glossentry>
     </glossgroup>
     ```
 
@@ -61,19 +61,19 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
     <glossgroup id="duck_equipment">
-     <title>观鸭设备</title>
-    <glossentry id="binoculars">
-     <glossterm>双筒望远镜</glossterm>
-    </glossentry>
-    <glossentry id="duck_bait">
-     <glossterm>鸭饲料</glossterm>
-    </glossentry>
-    <glossentry id="duck_call">
-     <glossterm>仿生鸭哨</glossterm>
-    </glossentry>
-    <glossentry id="spotting_scope">
-     <glossterm>鉴识望远镜</glossterm>
-    </glossentry>
+      <title>观鸭设备</title>
+      <glossentry id="binoculars">
+        <glossterm>双筒望远镜</glossterm>
+      </glossentry>
+      <glossentry id="duck_bait">
+        <glossterm>鸭饲料</glossterm>
+      </glossentry>
+      <glossentry id="duck_call">
+        <glossterm>仿生鸭哨</glossterm>
+      </glossentry>
+      <glossentry id="spotting_scope">
+        <glossterm>鉴识望远镜</glossterm>
+      </glossentry>
     </glossgroup>
     ```
 
@@ -83,22 +83,59 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
     <glossgroup id="duck_equipment">
-     <title>观鸭设备</title>
-    <glossentry id="binoculars">
-     <glossterm>双筒望远镜</glossterm>
-     <glossdef>一种用双眼观察远处物体的光学设备。</glossdef>
-    </glossentry>
-    <glossentry id="duck_bait">
-     <glossterm>鸭饲料</glossterm>
-     <glossdef>吸引鸭子的饲料，涵盖从颗粒饲料到廉价的白面包等。</glossdef>
-    </glossentry>
-    <glossentry id="duck_call">
-     <glossterm>仿生鸭哨</glossterm>
-     <glossdef>一根装有芦苇的管子，可以模仿鸭子的叫声。</glossdef>
-    </glossentry>
-    <glossentry id="spotting_scope">
-     <glossterm>鉴识望远镜</glossterm>
-     <glossdef>一种用单眼观察远处物体的光学设备，可以比双筒望远镜看到更多细节。</glossdef>
-    </glossentry>
+      <title>观鸭设备</title>
+      <glossentry id="binoculars">
+        <glossterm>双筒望远镜</glossterm>
+        <glossdef>一种用双眼观察远处物体的光学设备。</glossdef>
+      </glossentry>
+      <glossentry id="duck_bait">
+        <glossterm>鸭饲料</glossterm>
+        <glossdef>吸引鸭子的饲料，涵盖从颗粒饲料到廉价的白面包等。</glossdef>
+      </glossentry>
+      <glossentry id="duck_call">
+        <glossterm>仿生鸭哨</glossterm>
+        <glossdef>一根装有芦苇的管子，可以模仿鸭子的叫声。</glossdef>
+      </glossentry>
+      <glossentry id="spotting_scope">
+        <glossterm>鉴识望远镜</glossterm>
+        <glossdef>一种用单眼观察远处物体的光学设备，可以比双筒望远镜看到更多细节。</glossdef>
+      </glossentry>
     </glossgroup>
     ```
+6. 对照[随堂练习的参考答案] (`lesson2/l_glossgroup.dita`)，自行批改一下你刚刚完成的练习作业。
+
+## 课后练习
+
+1. 打开文件 `lesson2/l_glossgroup_exercise_start.dita`，使用该文件将以下内容转换成 DITA：
+
+    --8<-- "div_exercise_content.md:start"
+
+    <h2 style="margin: .64em 0 .64em;">关于内容策略的术语</h2>
+
+    **结构化写作**
+
+    一种创建内容的编辑环境。在该编辑环境中，编辑软件会强制应用某种内容结构和模板。
+
+    **结构化内容**
+
+    按照既定方式组织在一起的可预测信息。
+
+    **可搜索的内容**
+
+    可通过互联网搜索到的信息。
+
+    **易查找的内容**
+
+    在搜索引擎中搜索相关关键词就能查找到的信息。
+
+    **易发现的内容**
+
+    拥有内链的信息，尤其是在社交媒体上。
+
+    --8<-- "div_exercise_content.md:end"
+
+2. 对照[课后练习的参考答案] (`lesson2/l_glossgroup_exercise.dita`)，自行批改一下你刚刚完成的练习作业。
+
+<!-- links -->
+[随堂练习的参考答案]: sa_glossgroup.md#_2
+[课后练习的参考答案]: sa_glossgroup.md#_3

@@ -6,11 +6,11 @@
 
 ```xml
 <map>
- <title>关于鸭子的术语</title>
- <topicref href="g_acorns.dita"/>
- <topicref href="g_aythyinae.dita"/>
- <topicref href="g_canvasback.dita"/>
- ... 
+  <title>关于鸭子的术语</title>
+  <topicref href="g_acorns.dita"/>
+  <topicref href="g_aythyinae.dita"/>
+  <topicref href="g_canvasback.dita"/>
+  ... 
 </map>
 ```
 
@@ -27,7 +27,9 @@
 
 - 如果您的内容来自多个不同的团队，每个团队可能都有一套自己的术语词条。文档发布时，所有术语词条都需要合并在一起（并排序）。
 - 同理，不同的产品线可能也都有自己的术语表。这些术语表可能也需要合并在一起，具体取决于实际情况。
-- 需要维护多张术语导图并在发布时合并的情况还有很多，比如：
+
+需要维护多张术语导图并在发布时合并的情况还有很多，比如：
+
 - 发布程序可能需要将术语分组主题中的词条合并到自己的术语表中。
 - 如果需要翻译，术语词条很有可能需要根据目标语言的习惯重新排序。如果发布程序可以自动为术语词条重新排序，那本地化团队就省心了。
 
@@ -46,7 +48,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
     <map>
-     <title></title>
+      <title></title>
     </map>
     ```
 
@@ -56,7 +58,7 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
     <map>
-     <title>关于鸭子的术语</title>
+      <title>关于鸭子的术语</title>
     </map>
     ```
 
@@ -66,34 +68,48 @@
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
     <map>
-     <title>关于鸭子的术语</title>
-     <topicref href="l_glossentry.dita"/>
+      <title>关于鸭子的术语</title>
+      <topicref href="l_glossentry.dita"/>
     </map>
     ```
 
     在术语词条的随堂练习中，如果你为练习文件起的文件名不是 `l_glossentry.dita`，请使用你的文件名替换上面代码中的 `l_glossentry.dita`。
 
 4. 如果你还创建了其他术语词条主题，请使用 `<topicref>` 元素将这些主题也添加进来。
+5. 对照[随堂练习的参考答案] (`lesson1/l_glossorg.ditamap`)，自行批改一下你刚刚完成的练习作业。
 
 ## 课后练习
 
-1. 打开文件 `lesson3/l_glossary_exercise_start.dita`，使用该文件将以下内容转换成DITA：
+1. 打开文件 `lesson1/exercise_files/l_glossentry_exercise_start.dita` 和 `l_glossorg_exercise_start.dita`，使用该文件将以下内容转换成 DITA：
 
-    !!! note "注意"
-        本练习的参考答案将以下内容转换成了术语分组主题，你也可以将其转换为多个术语词条主题，并将它们放进导图中。
+    --8<-- "div_exercise_content.md:start"
 
-    ```xml
-    <hr/>
-     <h3>Content strategy terms</h3>
-     <i>structured authoring</i>
-     <p>An environment for creating content where the required structure is enforced by the authoring software and following the template is not optional</p>
-     <i>structured content</i>
-     <p>Information that is organized in a predictable way</p>
-     <i>searchable content</i>
-     <p>Information that is available via an Internet search</p>
-     <i>findable content</i>
-     <p>Information that performs well for relevant keywords</p>
-     <i>discoverable content</i>
-     <p>Information that has in-bound links, especially on social media</p>
-    <hr/>
-    ```
+    <h2 style="margin: .64em 0 .64em;">关于内容策略的术语</h2>
+
+    **结构化写作**
+
+    一种创建内容的编辑环境。在该编辑环境中，编辑软件会强制应用某种内容结构和模板。
+
+    **结构化内容**
+
+    按照既定方式组织在一起的可预测信息。
+
+    **可搜索的内容**
+
+    可通过互联网搜索到的信息。
+
+    **易查找的内容**
+
+    在搜索引擎中搜索相关关键词就能查找到的信息。
+
+    **易发现的内容**
+
+    拥有内链的信息，尤其是在社交媒体上。
+
+    --8<-- "div_exercise_content.md:end"
+
+2. 对照[课后练习的参考答案] (`lesson1/exercise_files/l_glossentry_exercise_*.dita` 和 `l_glossorg_exercise.ditamap`)，自行批改一下你刚刚完成的练习作业。
+
+<!-- links -->
+[随堂练习的参考答案]: sa_glossentry.md#_2
+[课后练习的参考答案]: sa_glossentry.md#_3
