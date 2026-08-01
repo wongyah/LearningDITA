@@ -165,6 +165,11 @@ nav:
       - course04-authoring_reference/reference/lc_adding_refsyn.md
       - course04-authoring_reference/reference/lc_adding_properties.md
       - course04-authoring_reference/reference/sa_reference.md
+    - 最佳实践:
+      - course04-authoring_reference/best_practices/index.md
+      - course04-authoring_reference/best_practices/lc_bp_template.md
+      - course04-authoring_reference/best_practices/lc_bp_linking.md
+      - course04-authoring_reference/best_practices/lc_pr-d.md
   - 创建术语主题:
     - 创建术语词条主题:
       - course05-authoring_gloss/glossary/index.md
