@@ -183,6 +183,12 @@ nav:
       - course05-authoring_gloss/glossgroup/lc_about_glossgroup.md
       - course05-authoring_gloss/glossgroup/lc_new_glossgroup.md
       - course05-authoring_gloss/glossgroup/sa_glossgroup.md
+    - 最佳实践:
+      - course05-authoring_gloss/best_practice/index.md
+      - course05-authoring_gloss/best_practice/lc_bp_naming.md
+      - course05-authoring_gloss/best_practice/lc_bp_good_glossentry.md
+      - course05-authoring_gloss/best_practice/lc_bp_glossarylist.md
+      - course05-authoring_gloss/best_practice/lc_bp_control_glossaries.md
 
 
 markdown_extensions:
