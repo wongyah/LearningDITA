@@ -57,6 +57,7 @@ extra:
 copyright: "&copy; 2025 王烨."
 
 nav:
+  - 版权声明: notice.md
   - DITA 概述:
     - DITA 简介:
       - course01-intro/dita_intro/index.md
