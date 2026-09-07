@@ -16,6 +16,10 @@ git diff --name-only my_learningdita~1 my_learningdita -- "*.dita"
 
 如果是课程简介（文件中包含 `<lcObjectives>` 元素），执行 `\dita2md-index` 命令。否则，执行 `\dita2md` 命令。
 
+## 生成参考答案页
+
+如果本讲中包含随堂练习和课后练习，执行 `\create-possible-answers` 命令。
+
 ## 更新导航目录
 
 `\update-nav`
