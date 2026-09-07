@@ -190,6 +190,14 @@ nav:
       - course05-authoring_gloss/best_practice/lc_bp_good_glossentry.md
       - course05-authoring_gloss/best_practice/lc_bp_glossarylist.md
       - course05-authoring_gloss/best_practice/lc_bp_control_glossaries.md
+  - 创建导图:
+    - 创建 DITA 导图:
+      - course06-creating_maps_bookmaps/maps/index.md
+      - course06-creating_maps_bookmaps/maps/lc_example_files.md
+      - course06-creating_maps_bookmaps/maps/lc_map_new.md
+      - course06-creating_maps_bookmaps/maps/lc_map_adding_topicrefs.md
+      - course06-creating_maps_bookmaps/maps/lc_map_adding_maprefs.md
+      - course06-creating_maps_bookmaps/maps/sa_maps.md
 
 
 markdown_extensions:
