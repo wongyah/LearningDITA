@@ -19,9 +19,9 @@
 
 ## 检查作业批改步骤
 
-请参考文件 docs/course03-authoring_tasks/task_intro/lc_optional_elements.md，检查 ${last_file} 中的随堂练习和课后练习是否包含自行批改练习作用的说明步骤（通常为练习的最后一步。
+请参考文件 docs/course03-authoring_tasks/task_intro/lc_optional_elements.md，检查 ${last_file} 中的随堂练习和课后练习是否包含自行批改练习作业的说明步骤（通常为练习的最后一步。如果缺少该步骤，请按照参考文件中的模式添加上。
 
-如果缺少该步骤，请按照参考文件中的模式添加上。
+请参考模板文件为自行批改练习作业步骤中的“随堂练习的参考答案”和“课后练习的参考答案”添加链接。
 
 ## 修改课后练习的内容格式
 

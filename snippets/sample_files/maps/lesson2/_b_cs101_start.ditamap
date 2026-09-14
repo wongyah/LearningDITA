@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
-    <booktitle>
-        <mainbooktitle>内容策略入门</mainbooktitle>
-    </booktitle>
+	<booktitle>
+		<mainbooktitle>内容策略入门</mainbooktitle>
+	</booktitle>
 </bookmap>

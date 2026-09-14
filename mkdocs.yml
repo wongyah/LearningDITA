@@ -198,6 +198,12 @@ nav:
       - course06-creating_maps_bookmaps/maps/lc_map_adding_topicrefs.md
       - course06-creating_maps_bookmaps/maps/lc_map_adding_maprefs.md
       - course06-creating_maps_bookmaps/maps/sa_maps.md
+    - 创建书籍导图:
+      - course06-creating_maps_bookmaps/bookmaps/index.md
+      - course06-creating_maps_bookmaps/bookmaps/lc_bookmap_map_overview.md
+      - course06-creating_maps_bookmaps/bookmaps/lc_bookmap_new.md
+      - course06-creating_maps_bookmaps/bookmaps/lc_bookmap_adding_topicrefs.md
+      - course06-creating_maps_bookmaps/bookmaps/sa_bookmaps.md
 
 
 markdown_extensions:
