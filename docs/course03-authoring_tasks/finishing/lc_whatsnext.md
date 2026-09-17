@@ -1,4 +1,11 @@
+<!-- 
+    本文件隶属于在 GitHub 上开源的 DITA 培训项目。
+    使用许可和版权声明，请参见 LICENSE 文件和 docs/notice.md 文件。
+-->
+
 # 插入后置任务
+
+## 课堂讲解
 
 `<taskbody>` 元素中的最后一个子元素是 `<postreq>`（读作“postrequisite”，即后置任务）元素。
 

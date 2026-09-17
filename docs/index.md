@@ -1,3 +1,8 @@
+<!-- 
+    本文件隶属于在 GitHub 上开源的 DITA 培训项目。
+    使用许可和版权声明，请参见 LICENSE 文件和 docs/notice.md 文件。
+-->
+
 # LearningDITA 中文版
 
 [LearningDITA] 是 [美国Scriptorium出版服务公司][Scriptorium] 开发的一门开源的 DITA 入门课程。该课程自 2015 年上线以来深受 DITA 用户的欢迎。截至 2024 年底，[LearningDITA网站] 的注册用户已经超过 1.6 万人。

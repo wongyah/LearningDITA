@@ -1,4 +1,11 @@
+<!-- 
+    本文件隶属于在 GitHub 上开源的 DITA 培训项目。
+    使用许可和版权声明，请参见 LICENSE 文件和 docs/notice.md 文件。
+-->
+
 # 新建术语分组主题
+
+## 课堂讲解
 
 一个最简单的术语分组主题，至少要包含一个根元素 `<glossgroup>`（带 `id` 属性）。`<glossgroup>`元素中至少要包含一个 `<title>` 元素、一个或以上 `<glossentry>` 或 `<glossgroup>` 元素（带 `id` 属性）。
 

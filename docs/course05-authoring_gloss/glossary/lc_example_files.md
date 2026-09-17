@@ -1,3 +1,8 @@
+<!-- 
+    本文件隶属于在 GitHub 上开源的 DITA 培训项目。
+    使用许可和版权声明，请参见 LICENSE 文件和 docs/notice.md 文件。
+-->
+
 # 练习资料
 
 请前往[百度网盘]{: target="_blank"}下载本课的练习资料 (`gloss_samples` 文件夹)，并将其保存在一个容易查找的地方。
