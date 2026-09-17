@@ -1,9 +1,9 @@
+# CALS 表格
+
 <!-- 
     本文件隶属于在 GitHub 上开源的 DITA 培训项目。
     使用许可和版权声明，请参见 LICENSE 文件和 docs/notice.md 文件。
 -->
-
-# CALS 表格
 
 在 DITA 中，CALS 表格（`<table>`）的后代元素如下：
 

@@ -1,9 +1,9 @@
+# 什么是 DITA?
+
 <!-- 
     本文件隶属于在 GitHub 上开源的 DITA 培训项目。
     使用许可和版权声明，请参见 LICENSE 文件和 docs/notice.md 文件。
 -->
-
-# 什么是 DITA?
 
 DITA 是达尔文信息类型化体系架构的简称，最初是由 IBM 开发的。2005 年，IBM 将 DITA 捐献给了结构化信息标准促进组织 ([OASIS])。之后，DITA 就变成了一个开放的标准。
 

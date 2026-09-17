@@ -1,9 +1,9 @@
+# 在 Oxygen 中创建主题
+
 <!-- 
     本文件隶属于在 GitHub 上开源的 DITA 培训项目。
     使用许可和版权声明，请参见 LICENSE 文件和 docs/notice.md 文件。
 -->
-
-# 在 Oxygen 中创建主题
 
 在文本编辑器中阅读 DITA 文件应该还是有点难的。没有高亮显示，元素的层级结构也不大容易辨认（因为空格和换行在 XML 中没有什么实质性的含义）。大多数人还是喜欢使用可视化编辑器（比如 [Oxygen XML编辑器](https://www.oxygenxml.com/)）编辑 DITA 文件，因为 DITA 文件中的内容会带格式显示，比较容易阅读。
 
