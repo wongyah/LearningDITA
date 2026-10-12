@@ -38,6 +38,10 @@
 
 如果 ${snippet_folder} 中有 `*_exercise.dita` 文件，请使用该文件中的中文内容将英文内容替换掉。如果没有，请你翻译将英文内容翻译成中文。
 
+## 代码缩进
+
+将 ${snippet_folder} 中所有文件的代码缩进统一为一个制表符。
+
 ## 本次任务变量
 
 - target_folder: ${target_folder}
