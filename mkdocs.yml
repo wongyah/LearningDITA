@@ -204,6 +204,14 @@ nav:
       - course06-creating_maps_bookmaps/bookmaps/lc_bookmap_new.md
       - course06-creating_maps_bookmaps/bookmaps/lc_bookmap_adding_topicrefs.md
       - course06-creating_maps_bookmaps/bookmaps/sa_bookmaps.md
+    - 高级元素:
+      - course06-creating_maps_bookmaps/advanced_ditamaps/index.md
+      - course06-creating_maps_bookmaps/advanced_ditamaps/lc_map_metadata.md
+      - course06-creating_maps_bookmaps/advanced_ditamaps/lc_bookmap_metadata.md
+      - course06-creating_maps_bookmaps/advanced_ditamaps/lc_adding_frontmatter.md
+      - course06-creating_maps_bookmaps/advanced_ditamaps/lc_adding_topichead.md
+      - course06-creating_maps_bookmaps/advanced_ditamaps/lc_adding_navtitle.md
+      - course06-creating_maps_bookmaps/advanced_ditamaps/sa_advanced_ditamaps.md
 
 
 markdown_extensions:
