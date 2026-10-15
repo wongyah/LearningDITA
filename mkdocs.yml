@@ -212,6 +212,14 @@ nav:
       - course06-creating_maps_bookmaps/advanced_ditamaps/lc_adding_topichead.md
       - course06-creating_maps_bookmaps/advanced_ditamaps/lc_adding_navtitle.md
       - course06-creating_maps_bookmaps/advanced_ditamaps/sa_advanced_ditamaps.md
+    - 插入关系表:
+      - course06-creating_maps_bookmaps/relationship_tables/index.md
+      - course06-creating_maps_bookmaps/relationship_tables/lc_about_reltables.md
+      - course06-creating_maps_bookmaps/relationship_tables/lc_creating_reltable.md
+      - course06-creating_maps_bookmaps/relationship_tables/lc_reltable_rows.md
+      - course06-creating_maps_bookmaps/relationship_tables/lc_advanced_reltable.md
+      - course06-creating_maps_bookmaps/relationship_tables/lc_reltable_bestpractices.md
+      - course06-creating_maps_bookmaps/relationship_tables/sa_reltable.md
 
 
 markdown_extensions:
