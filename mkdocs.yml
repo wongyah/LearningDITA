@@ -99,7 +99,7 @@ nav:
       - course01-intro/links/lc_xrefs.md
       - course01-intro/links/lc_related_links.md
       - course01-intro/links/lc_relationships.md
-  - 创建概念型主题:
+  - 概念型主题:
     - 概念型主题简介:
       - course02-authoring_concepts/concept_intro/index.md
       - course02-authoring_concepts/concept_intro/lc_example_files.md
@@ -127,7 +127,7 @@ nav:
       - course02-authoring_concepts/best_practices/lc_formatting.md
       - course02-authoring_concepts/best_practices/lc_consistency.md
       - course02-authoring_concepts/best_practices/lc_semantic.md
-  - 创建任务型主题:
+  - 任务型主题:
     - 任务型主题简介:
       - course03-authoring_tasks/task_intro/index.md
       - course03-authoring_tasks/task_intro/lc_example_files.md
@@ -157,7 +157,7 @@ nav:
       - course03-authoring_tasks/best_practices/lc_bp_short.md
       - course03-authoring_tasks/best_practices/lc_bp_substeps.md
       - course03-authoring_tasks/best_practices/lc_bp_reuse.md
-  - 创建参考型主题:
+  - 参考型主题:
     - 参考型主题简介:
       - course04-authoring_reference/reference/index.md
       - course04-authoring_reference/reference/lc_example_files.md
@@ -171,7 +171,7 @@ nav:
       - course04-authoring_reference/best_practices/lc_bp_template.md
       - course04-authoring_reference/best_practices/lc_bp_linking.md
       - course04-authoring_reference/best_practices/lc_pr-d.md
-  - 创建术语主题:
+  - 术语主题:
     - 创建术语词条主题:
       - course05-authoring_gloss/glossary/index.md
       - course05-authoring_gloss/glossary/lc_example_files.md
@@ -190,8 +190,8 @@ nav:
       - course05-authoring_gloss/best_practice/lc_bp_good_glossentry.md
       - course05-authoring_gloss/best_practice/lc_bp_glossarylist.md
       - course05-authoring_gloss/best_practice/lc_bp_control_glossaries.md
-  - 创建导图:
-    - 创建 DITA 导图:
+  - 导图:
+    - 创建普通导图:
       - course06-creating_maps_bookmaps/maps/index.md
       - course06-creating_maps_bookmaps/maps/lc_example_files.md
       - course06-creating_maps_bookmaps/maps/lc_map_new.md
@@ -204,7 +204,7 @@ nav:
       - course06-creating_maps_bookmaps/bookmaps/lc_bookmap_new.md
       - course06-creating_maps_bookmaps/bookmaps/lc_bookmap_adding_topicrefs.md
       - course06-creating_maps_bookmaps/bookmaps/sa_bookmaps.md
-    - 高级元素:
+    - 插入高级元素:
       - course06-creating_maps_bookmaps/advanced_ditamaps/index.md
       - course06-creating_maps_bookmaps/advanced_ditamaps/lc_map_metadata.md
       - course06-creating_maps_bookmaps/advanced_ditamaps/lc_bookmap_metadata.md
