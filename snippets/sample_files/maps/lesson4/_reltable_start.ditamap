@@ -17,7 +17,10 @@
 	</topicref>
 	<topicref href="c_duckdb.dita">
 		<topicref href="c_writing_about_ducks.dita"/>
-		<topichead navtitle="普通任务">
+		<topichead>
+			<topicmeta>
+				<navtitle>普通任务</navtitle>
+			</topicmeta>
 			<topicref href="t_create_table.dita"/>
 			<topicref href="t_adding_entry.dita"/>
 			<topicref href="t_modify_entry.dita"/>
@@ -25,7 +28,10 @@
 			<topicref href="t_modify_table.dita"/>
 			<topicref href="t_deleting_entry.dita"/>
 		</topichead>
-		<topichead navtitle="命令手册">
+		<topichead>
+			<topicmeta>
+				<navtitle>命令手册</navtitle>
+			</topicmeta>
 			<topicref href="r_tnav.dita" locktitle="yes">
 				<topicmeta>
 					<navtitle>tNav 命令</navtitle>
@@ -38,7 +44,5 @@
 			<topicref href="r_newtable.dita"/>
 		</topichead>
 	</topicref>
-
 	<mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
-
 </map>

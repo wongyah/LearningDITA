@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
 	<booktitle>
-		<mainbooktitle>书籍名称</mainbooktitle>
+		<mainbooktitle>鸭子</mainbooktitle>
 	</booktitle>
 	<chapter href="c_wild_ducks.dita">
 		<topicref href="c_wild_duck_types.dita"/>

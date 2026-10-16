@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-<bookmap>
+<bookmap id="ducks">
 	<booktitle>
 		<mainbooktitle>鸭子</mainbooktitle>
 	</booktitle>
@@ -16,11 +16,7 @@
 		</topicref>
 	</chapter>
 	<chapter href="c_duckdb.dita">
-		<topicref href="c_writing_about_ducks.dita" locktitle="yes">
-			<topicmeta>
-				<navtitle>add 命令</navtitle>
-			</topicmeta>
-		</topicref>
+		<topicref href="c_writing_about_ducks.dita" />
 		<topicref href="r_tnav.dita"/>
 	</chapter>
 </bookmap>

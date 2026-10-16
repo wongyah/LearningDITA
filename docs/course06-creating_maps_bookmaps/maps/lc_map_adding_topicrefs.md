@@ -99,7 +99,7 @@
         </topicref>
       </topicref>
       <topicref href="c_duckdb.dita">
-        <topicref href="c_writing_about_ducks.dita" locktitle="yes"/>
+        <topicref href="c_writing_about_ducks.dita"/>
         <topicref href="r_tnav.dita"/>
       </topicref></map>
     ```

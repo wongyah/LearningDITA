@@ -16,7 +16,7 @@
 
 关系表中的每一列都包含一类相似的信息。在关系表的标题行（即 `<relheader>`）中，你可以使用 `<relcolspec>` 为每一列定义一个信息类型。
 
-最常见的做法是，使用 `<relcolspec>` 元素定义三个关系表列：概念型主题列、任务型主题列和参考型主题列。当然，可以放进关系表中的信息类型不只这些。
+最常见的做法是，使用 `<relcolspec>` 元素定义三个关系表列：概念型主题列（即 `concept`）、任务型主题列（即 `task`）和参考型主题列（即 `reference`）。当然，可以放进关系表中的信息类型不只这些。
 
 ## 随堂练习
 
@@ -31,7 +31,7 @@
     	</topichead>
     	</topicref>
     	<mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
-    	<reltable title="Ducks reltable">
+    	<reltable title="鸭子关系表">
     	</reltable>
     </map>
     ```
@@ -41,7 +41,7 @@
 3. 在关系表中，插入一个 `<relheader>` 元素，再在 `<relheader>` 元素中插入三个 `<relcolspec>`元素：
 
     ```xml
-    <reltable title="Ducks reltable">
+    <reltable title="鸭子关系表">
     	<relheader>
     		<relcolspec/>
     		<relcolspec/>

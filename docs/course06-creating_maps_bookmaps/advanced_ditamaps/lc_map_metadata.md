@@ -89,7 +89,7 @@
     <map id="ducks">
     	<title>鸭子</title>
     	...
-    	<topicref href="c_duckdb.dita>
+    	<topicref href="c_duckdb.dita">
     		<topicmeta>
     			<audience type="user" experiencelevel="expert"/>
     		</topicmeta>

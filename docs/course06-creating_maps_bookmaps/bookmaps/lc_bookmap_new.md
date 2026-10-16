@@ -60,7 +60,7 @@
     <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
     <bookmap id="ducks">
     	<booktitle>
-    		<mainbooktitle>书名</mainbooktitle>
+    		<mainbooktitle>鸭子</mainbooktitle>
     	</booktitle>
     </bookmap>
     ```
